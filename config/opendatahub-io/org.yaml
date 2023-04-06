@@ -1,0 +1,346 @@
+orgs:
+  opendatahub-io:
+    admins:
+    - accorvin
+    - cfchase
+    - jkoehler-redhat
+    - LaVLaS
+    - openshift-ci-robot
+    - openshift-merge-robot
+    - shgriffi
+    - taneem-ibrahim
+    default_repository_permission: read
+    description: "Organization for Open Data Hub community"
+    has_organization_projects: true
+    has_repository_projects: true
+    members:
+    - 4n4nd
+    - akchinSTC
+    - alexcreasy
+    - andrewballantyne
+    - anishasthana
+    - atheo89
+    - chtyler
+    - DaoDaoNoCode
+    - Dbryant58
+    - dchourasia
+    - dfeddema
+    - DharmitD
+    - dlabaj
+    - durandom
+    - erwangranger
+    - ezidav
+    - fcami
+    - Gkrumbach07
+    - gmfrasca
+    - goern
+    - gregsheremeta
+    - guimou
+    - harshad16
+    - heyselbi
+    - HumairAK
+    - israel-hdez
+    - jbyrne-redhat
+    - jedemo
+    - jeff-phillips-18
+    - jenny-s51
+    - jgarciao
+    - Jooho
+    - judyobrienie
+    - kaedward
+    - KPostOffice
+    - kywalker-rh
+    - lucferbux
+    - lugi0
+    - maroroman
+    - Maxusmusti
+    - MichaelClifford
+    - mlassak
+    - r00ta
+    - rimolive
+    - RobGeada
+    - romeokienzler
+    - ruivieira
+    - sesheta
+    - tteofili
+    - VaishnaviHire
+    - VannTen
+    - vconzola
+    - VedantMahabaleshwarkar
+    - Xaenalt
+    members_can_create_repositories: false
+    name: Open Data Hub
+    teams:
+      Data Science Pipelines Maintainers:
+        description: ""
+        maintainers:
+        - gregsheremeta
+        members:
+        - rimolive
+        - HumairAK
+        - harshad16
+        - gmfrasca
+        - DharmitD
+        privacy: closed
+        repos:
+          data-science-pipelines-operator: maintain
+      Dev leads:
+        description: Development leads. Members have merge permissions on all repos.
+        maintainers:
+        - taneem-ibrahim
+        members:
+        - anishasthana
+        privacy: closed
+        repos:
+          Fraud-Detection-with-Business-Workflows-Tutorial: maintain
+          data-engineering-and-machine-learning-workshop: maintain
+          data-science-pipelines: maintain
+          landscapeapp: maintain
+          manifests: maintain
+          modelmesh-runtime-adapter: maintain
+          odh-images: maintain
+          odh-landscape: maintain
+          odh-s2i-project-cds: maintain
+          odh-s2i-project-cookiecutter: maintain
+          odh-s2i-project-simple: maintain
+          opendatahub-community: maintain
+          opendatahub.io-redirects: maintain
+          s2i-lab-elyra: maintain
+          testing-notebooks: maintain
+      Developers:
+        description: ""
+        members:
+        - jgarciao
+        - durandom
+        - goern
+        - rimolive
+        - Jooho
+        - dfeddema
+        - guimou
+        - andrewballantyne
+        - Xaenalt
+        - judyobrienie
+        - HumairAK
+        - jeff-phillips-18
+        - VannTen
+        - harshad16
+        - lucferbux
+        - dchourasia
+        - VaishnaviHire
+        - 4n4nd
+        - gmfrasca
+        - DaoDaoNoCode
+        - atheo89
+        - heyselbi
+        - DharmitD
+        - kywalker-rh
+        - maroroman
+        - jedemo
+        - lugi0
+        - Dbryant58
+        privacy: closed
+        repos:
+          data-science-pipelines: write
+          modelmesh: write
+          modelmesh-runtime-adapter: write
+          modelmesh-serving: write
+          odh-manifests: write
+          rest-proxy: write
+      Distributed Workloads Maintainers:
+        description: ""
+        maintainers:
+        - accorvin
+        members:
+        - MichaelClifford
+        - anishasthana
+        - Maxusmusti
+        - KPostOffice
+        privacy: closed
+        repos:
+          distributed-workloads: maintain
+      Elyra Maintainers:
+        description: Maintainers of the Elyra AI notebook and build pipelines
+        maintainers:
+        - LaVLaS
+        - romeokienzler
+        - harshad16
+        members:
+        - akchinSTC
+        privacy: closed
+        repos:
+          s2i-lab-elyra: maintain
+      Notebook Controller Maintainers:
+        description: Maintainers of the notebook controller and all connected repos
+        maintainers:
+        - LaVLaS
+        - VaishnaviHire
+        privacy: closed
+        repos:
+          kubeflow: admin
+      Notebook Controller Triage:
+        description: Members with triage access to repos maintained by the Notebook
+          Controller contributors
+        maintainers:
+        - LaVLaS
+        - VaishnaviHire
+        members:
+        - maroroman
+        - mlassak
+        privacy: closed
+        repos:
+          kubeflow: triage
+      ODH Dashboard Developers:
+        description: Contributors to Dashboard
+        maintainers:
+        - jkoehler-redhat
+        members:
+        - anishasthana
+        - jenny-s51
+        - maroroman
+        privacy: closed
+        repos:
+          odh-dashboard: write
+      ODH Dashboard Maintainers:
+        description: Maintainers of the ODH Dashboard repo
+        maintainers:
+        - cfchase
+        - LaVLaS
+        members:
+        - alexcreasy
+        - andrewballantyne
+        - Gkrumbach07
+        - lucferbux
+        - DaoDaoNoCode
+        privacy: closed
+        repos:
+          odh-dashboard: maintain
+      ODH Dashboard Owners:
+        description: Dashboard Owners
+        maintainers:
+        - jkoehler-redhat
+        members:
+        - alexcreasy
+        - Gkrumbach07
+        - lucferbux
+        - DaoDaoNoCode
+        privacy: closed
+        repos:
+          odh-dashboard: admin
+      ODH Documentatation Maintainers:
+        description: Members responsible for the official ODH Document
+        maintainers:
+        - LaVLaS
+        members:
+        - jbyrne-redhat
+        - chtyler
+        privacy: closed
+        repos:
+          opendatahub-documentation: admin
+      ODH Notebook Admins:
+        description: Team responsible for managing the ODH Core notebook repository
+        maintainers:
+        - LaVLaS
+        - VaishnaviHire
+        members:
+        - atheo89
+        privacy: closed
+        repos:
+          notebooks: admin
+      ODH Operator Maintainers:
+        description: Maintainers of the ODH Operator repo
+        maintainers:
+        - LaVLaS
+        - VaishnaviHire
+        privacy: closed
+        repos:
+          opendatahub-operator: admin
+      ODH Org Admin:
+        description: Administrators of the ODH org. Members have all permissions.
+        maintainers:
+        - cfchase
+        - LaVLaS
+        - accorvin
+        - shgriffi
+        - jkoehler-redhat
+        privacy: closed
+        repos:
+          .github: admin
+          Fraud-Detection-with-Business-Workflows-Tutorial: admin
+          architecture-decision-records: admin
+          data-engineering-and-machine-learning-workshop: admin
+          data-science-pipelines: admin
+          data-science-pipelines-operator: admin
+          distributed-workloads: admin
+          kubeflow: admin
+          landscapeapp: admin
+          manifests: admin
+          modelmesh: admin
+          modelmesh-runtime-adapter: admin
+          modelmesh-serving: admin
+          odh-dashboard: admin
+          odh-images: admin
+          odh-landscape: admin
+          odh-manifests: admin
+          odh-s2i-project-cds: admin
+          odh-s2i-project-cookiecutter: admin
+          odh-s2i-project-simple: admin
+          odh-template-sig: admin
+          opendatahub-community: admin
+          opendatahub-operator: admin
+          opendatahub.io: admin
+          opendatahub.io-redirects: admin
+          rest-proxy: admin
+          s2i-lab-elyra: admin
+          testing-notebooks: admin
+      SIG ML Developer Experience:
+        description: Chairs of the ML Developer Experience SIG
+        maintainers:
+        - LaVLaS
+        - erwangranger
+        - kywalker-rh
+        - jkoehler-redhat
+        privacy: closed
+        repos:
+          sig-ml-developer-experience: admin
+      SIG MLOps:
+        description: The Chairs of the ML Ops SIG
+        maintainers:
+        - LaVLaS
+        - anishasthana
+        privacy: closed
+        repos:
+          data-science-pipelines: admin
+          data-science-pipelines-operator: admin
+          modelmesh: maintain
+          modelmesh-runtime-adapter: maintain
+          modelmesh-serving: admin
+          odh-model-controller: admin
+          rest-proxy: maintain
+      adr-maintainers:
+        description: Maintainers of the ADR repository
+        maintainers:
+        - gregsheremeta
+        - LaVLaS
+        privacy: closed
+        repos:
+          architecture-decision-records: admin
+      opendatahub.io Admins:
+        description: Users with Admin access to the opendatahub.io and associated
+          repos
+        maintainers:
+        - LaVLaS
+        members:
+        - Gkrumbach07
+        privacy: closed
+        repos:
+          opendatahub.io: admin
+      opendatahub.io Triage:
+        description: Users with access to Triage opendatahub.io issues
+        maintainers:
+        - LaVLaS
+        members:
+        - maroroman
+        privacy: closed
+        repos:
+          opendatahub.io: triage
+
