@@ -8,6 +8,8 @@ tool to organization and team membership, as well as team creation and deletion.
 Membership in the opendatahub-io project is governed by our
 [community guidelines](https://github.com/opendatahub-io/opendatahub-community/blob/main/community-membership.md).
 
+NOTE: The opendatahub-io organization and team membership list will be managed by this repo only.  Any differences between the actual opendatahub-io organzation membership and the [org.yaml](config/opendatahub-io/org.yaml) may result in a loss of org or team membership settings with the peribolos command is executed 
+
 The application for membership in the opendatahub-io organization can be made by opening an [issue](https://github.com/opendatahub-io/org-management/issues/new/choose).
 However, if you are already part of the opendatahub-io organization, you do not need to do this and can add yourself directly to the appropriate files.
 For example, to also add yourself to the opendatahub-io organization, you can navigate to `config/opendatahub-io/org.yaml` and add your GitHub username to the list of members (in alphabetical order)
@@ -17,7 +19,8 @@ Requirements
 * Add only one new member per commit (if you add two members separate it in two commits
 * Commit message format `Add <USERNAME> to <opendatahub-io, mlops-sig, ...> org`. 
 
-New GitHub team requests must only come from an opendatahub-io member who will function as the maintainer of the team membership
+* New GitHub team requests can only come from an exsisting opendatahub-io member who will function as the maintainer of the team. Each additional member will follow the same requirements for adding new members
+* Commit message format `Create <TEAMNAME>`
 
 ## Community, discussion, contribution, and support
 
