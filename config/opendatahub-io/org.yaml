@@ -84,68 +84,6 @@ orgs:
         privacy: closed
         repos:
           data-science-pipelines-operator: maintain
-      Dev leads:
-        description: Development leads. Members have merge permissions on all repos.
-        maintainers:
-        - taneem-ibrahim
-        members:
-        - anishasthana
-        privacy: closed
-        repos:
-          Fraud-Detection-with-Business-Workflows-Tutorial: maintain
-          data-engineering-and-machine-learning-workshop: maintain
-          data-science-pipelines: maintain
-          landscapeapp: maintain
-          manifests: maintain
-          modelmesh-runtime-adapter: maintain
-          odh-images: maintain
-          odh-landscape: maintain
-          odh-s2i-project-cds: maintain
-          odh-s2i-project-cookiecutter: maintain
-          odh-s2i-project-simple: maintain
-          opendatahub-community: maintain
-          opendatahub.io-redirects: maintain
-          s2i-lab-elyra: maintain
-          testing-notebooks: maintain
-      Developers:
-        description: ""
-        members:
-        - jgarciao
-        - durandom
-        - goern
-        - rimolive
-        - Jooho
-        - dfeddema
-        - guimou
-        - andrewballantyne
-        - Xaenalt
-        - judyobrienie
-        - HumairAK
-        - jeff-phillips-18
-        - VannTen
-        - harshad16
-        - lucferbux
-        - dchourasia
-        - VaishnaviHire
-        - 4n4nd
-        - gmfrasca
-        - DaoDaoNoCode
-        - atheo89
-        - heyselbi
-        - DharmitD
-        - kywalker-rh
-        - maroroman
-        - jedemo
-        - lugi0
-        - Dbryant58
-        privacy: closed
-        repos:
-          data-science-pipelines: write
-          modelmesh: write
-          modelmesh-runtime-adapter: write
-          modelmesh-serving: write
-          odh-manifests: write
-          rest-proxy: write
       Distributed Workloads Maintainers:
         description: ""
         maintainers:
