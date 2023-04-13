@@ -6,16 +6,18 @@ Organizations. The data here is consumed by the
 tool to organization and team membership, as well as team creation and deletion.
 
 Membership in the opendatahub-io project is governed by our
-[community guidelines](https://git.k8s.io/community/community-membership.md).
+[community guidelines](https://github.com/opendatahub-io/opendatahub-community/blob/main/community-membership.md).
 
 The application for membership in the opendatahub-io organization can be made by opening an [issue](https://github.com/opendatahub-io/org-management/issues/new/choose).
 However, if you are already part of the opendatahub-io organization, you do not need to do this and can add yourself directly to the appropriate files.
-For example, to also add yourself to the opendatahub-sigs organization, you can navigate to `/config/opendatahub-sigs-sig/org.yaml` and add your GitHub username to the list of members (in alphabetical order); this works the same way for other organizations.
+For example, to also add yourself to the opendatahub-io organization, you can navigate to `config/opendatahub-io/org.yaml` and add your GitHub username to the list of members (in alphabetical order)
 
 Requirements
 
 * Add only one new member per commit (if you add two members separate it in two commits
 * Commit message format `Add <USERNAME> to <opendatahub-io, mlops-sig, ...> org`. 
+
+New GitHub team requests must only come from an opendatahub-io member who will function as the maintainer of the team membership
 
 ## Community, discussion, contribution, and support
 
