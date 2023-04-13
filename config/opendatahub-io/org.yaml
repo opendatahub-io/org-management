@@ -144,6 +144,7 @@ orgs:
           modelmesh: write
           modelmesh-runtime-adapter: write
           modelmesh-serving: write
+          odh-model-controller: write
           odh-manifests: write
           rest-proxy: write
       Distributed Workloads Maintainers:
