@@ -71,6 +71,27 @@ orgs:
     members_can_create_repositories: false
     name: Open Data Hub
     teams:
+      odh-manifests repository Admin:
+        description: "Users with Admin access to the odh-manifests repo"
+        maintainers:
+        - LaVLaS
+        privacy: closed
+        repos:
+          odh-manifests: admin
+      odh-manifests repository Contributors:
+        description: "Users with Maintain access to the odh-manifests repo"
+        maintainers:
+        - LaVLaS
+        privacy: closed
+        repos:
+          odh-manifests: maintain
+      odh-manifests repository Triage:
+        description: "Users with Triage access to the odh-manifests repo"
+        maintainers:
+        - LaVLaS
+        privacy: closed
+        repos:
+          odh-manifests: triage
       Data Science Pipelines Maintainers:
         description: ""
         maintainers:
