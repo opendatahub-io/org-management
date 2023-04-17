@@ -75,6 +75,7 @@ orgs:
         description: "Users with Admin access to the odh-manifests repo"
         maintainers:
         - LaVLaS
+        - VaishnaviHire
         privacy: closed
         repos:
           odh-manifests: admin
@@ -82,6 +83,7 @@ orgs:
         description: "Users with Maintain access to the odh-manifests repo"
         maintainers:
         - LaVLaS
+        - VaishnaviHire
         privacy: closed
         repos:
           odh-manifests: maintain
@@ -89,6 +91,7 @@ orgs:
         description: "Users with Triage access to the odh-manifests repo"
         maintainers:
         - LaVLaS
+        - VaishnaviHire
         privacy: closed
         repos:
           odh-manifests: triage
