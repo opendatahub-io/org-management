@@ -168,6 +168,40 @@ orgs:
         privacy: closed
         repos:
           modelmesh: write
+      repo-modelmesh-runtime-adapter-write:
+        description: "Members with Write access to the modelmesh-runtime-adapter repository"
+        members:
+        - 4n4nd
+        - DaoDaoNoCode
+        - Dbryant58
+        - DharmitD
+        - HumairAK
+        - Jooho
+        - VaishnaviHire
+        - VannTen
+        - Xaenalt
+        - andrewballantyne
+        - atheo89
+        - dchourasia
+        - dfeddema
+        - durandom
+        - gmfrasca
+        - goern
+        - guimou
+        - harshad16
+        - heyselbi
+        - jedemo
+        - jeff-phillips-18
+        - jgarciao
+        - judyobrienie
+        - kywalker-rh
+        - lucferbux
+        - lugi0
+        - maroroman
+        - rimolive
+        privacy: closed
+        repos:
+          modelmesh-runtime-adapter: write
       Notebook Controller Maintainers:
         description: Maintainers of the notebook controller and all connected repos
         maintainers:
