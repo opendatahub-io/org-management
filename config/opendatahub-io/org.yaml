@@ -84,6 +84,8 @@ orgs:
         maintainers:
         - LaVLaS
         - VaishnaviHire
+        members:
+        - harshad16
         privacy: closed
         repos:
           odh-manifests: maintain
