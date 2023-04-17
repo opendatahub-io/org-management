@@ -138,6 +138,7 @@ orgs:
         description: "Members with Write access to the modelmesh repository"
         members:
         - 4n4nd
+        - DaoDaoNoCode
         - heyselbi
         privacy: closed
         repos:
