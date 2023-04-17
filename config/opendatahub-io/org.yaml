@@ -86,6 +86,7 @@ orgs:
         - VaishnaviHire
         members:
         - harshad16
+        - VannTen
         privacy: closed
         repos:
           odh-manifests: maintain
