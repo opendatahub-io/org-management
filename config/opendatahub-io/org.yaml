@@ -156,6 +156,7 @@ orgs:
         - guimou
         - harshad16
         - heyselbi
+        - jedemo
         privacy: closed
         repos:
           modelmesh: write
