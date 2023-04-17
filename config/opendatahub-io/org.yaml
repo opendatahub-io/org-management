@@ -137,6 +137,7 @@ orgs:
       repo-modelmesh-write:
         description: "Members with Write access to the modelmesh repository"
         members:
+        - 4n4nd
         - heyselbi
         privacy: closed
         repos:
