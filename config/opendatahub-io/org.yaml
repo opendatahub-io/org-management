@@ -137,7 +137,6 @@ orgs:
       repo-modelmesh-write:
         description: "Members with Write access to the modelmesh repository"
         members:
-        - 4n4nd
         - DaoDaoNoCode
         - Dbryant58
         - DharmitD
@@ -171,7 +170,6 @@ orgs:
       repo-modelmesh-runtime-adapter-write:
         description: "Members with Write access to the modelmesh-runtime-adapter repository"
         members:
-        - 4n4nd
         - DaoDaoNoCode
         - Dbryant58
         - DharmitD
@@ -205,7 +203,6 @@ orgs:
       repo-modelmesh-serving-write:
         description: "Members with Write access to the modelmesh-serving repository"
         members:
-        - 4n4nd
         - DaoDaoNoCode
         - Dbryant58
         - DharmitD
@@ -239,7 +236,6 @@ orgs:
       repo-rest-proxy-write:
         description: "Members with Write access to the rest-proxy repository"
         members:
-        - 4n4nd
         - DaoDaoNoCode
         - Dbryant58
         - DharmitD
@@ -273,7 +269,6 @@ orgs:
       repo-odh-model-controller-write:
         description: "Members with Write access to the odh-model-controller repository"
         members:
-        - 4n4nd
         - DaoDaoNoCode
         - Dbryant58
         - DharmitD
@@ -307,7 +302,6 @@ orgs:
       data-science-pipelines repository Write:
         description: "Members with Write access to the data-science-pipelines repository"
         members:
-        - 4n4nd
         - DaoDaoNoCode
         - Dbryant58
         - DharmitD
