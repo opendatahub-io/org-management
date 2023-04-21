@@ -70,6 +70,10 @@ orgs:
     - vconzola
     - VedantMahabaleshwarkar
     - Xaenalt
+    - bartoszmajsak
+    - cam-garrison
+    - InnocentK
+    - aslakknutsen
     members_can_create_repositories: false
     name: Open Data Hub
     teams:
@@ -510,4 +514,21 @@ orgs:
         privacy: closed
         repos:
           opendatahub.io: triage
+      Service Mesh Integration:
+        description: Users with access to repos required to develop/maintain Service Mesh related features
+        maintainers:
+        - aslakknutsen
+        members:
+        - bartoszmajsak
+        - cam-garrison
+        - InnocentK
+        - aslakknutsen
+        - israel-hdez
+        privacy: closed
+        repos:
+          odh-dashboard: write
+          odh-manifests: write
+          odh-model-controller: write
+          opendatahub-operator: write
+          modelmesh-serving: write
 
