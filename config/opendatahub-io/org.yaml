@@ -510,6 +510,7 @@ orgs:
         maintainers:
         - LaVLaS
         members:
+        - ezidav
         - maroroman
         privacy: closed
         repos:
