@@ -75,6 +75,7 @@ orgs:
     - cam-garrison
     - InnocentK
     - aslakknutsen
+    - yannnz
     members_can_create_repositories: false
     name: Open Data Hub
     teams:
