@@ -394,6 +394,7 @@ orgs:
         maintainers:
         - jkoehler-redhat
         members:
+        - andrewballantyne
         - alexcreasy
         - Gkrumbach07
         - lucferbux
@@ -430,6 +431,16 @@ orgs:
         privacy: closed
         repos:
           opendatahub-operator: admin
+      ODH Community Maintainers:
+        description: Maintainers of the ODH Community repo
+        maintainers:
+          - jkoehler-redhat
+          - LaVLaS
+        members:
+          - andrewballantyne
+        privacy: closed
+        repos:
+          opendatahub-community: maintain
       ODH Org Admin:
         description: Administrators of the ODH org. Members have all permissions.
         maintainers:
@@ -536,4 +547,3 @@ orgs:
           odh-model-controller: write
           opendatahub-operator: write
           modelmesh-serving: write
-
