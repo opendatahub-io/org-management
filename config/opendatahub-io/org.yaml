@@ -357,6 +357,7 @@ orgs:
         maintainers:
         - LaVLaS
         - VaishnaviHire
+        - harshad16
         privacy: closed
         repos:
           kubeflow: admin
