@@ -1,10 +1,12 @@
 # See the OWNERS docs at https://go.k8s.io/owners
 
 reviewers:
+  - accorvin
   - jkoehler-redhat
   - lavlas
   - VaishnaviHire
 approvers:
+  - accorvin
   - jkoehler-redhat
   - lavlas
   - VaishnaviHire
