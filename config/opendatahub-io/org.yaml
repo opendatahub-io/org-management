@@ -447,6 +447,7 @@ orgs:
         members:
           - andrewballantyne
           - keklundrh
+          - jedemo
         privacy: closed
         repos:
           opendatahub-community: maintain
