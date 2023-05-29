@@ -71,6 +71,7 @@ orgs:
     - ruivieira
     - sesheta
     - simrandhaliw
+    - sutaakar
     - tedhtchang
     - tteofili
     - VaishnaviHire
@@ -140,6 +141,7 @@ orgs:
         - jiripetrlik
         - Maxusmusti
         - KPostOffice
+        - sutaakar
         privacy: closed
         repos:
           distributed-workloads: maintain
