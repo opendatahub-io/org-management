@@ -27,11 +27,11 @@ orgs:
     - ChughShilpa
     - DaoDaoNoCode
     - danielezonca
-    - Dbryant58
     - dchourasia
     - dfeddema
     - DharmitD
     - dlabaj
+    - dibryant
     - dimakis
     - durandom
     - erwangranger
@@ -165,7 +165,6 @@ orgs:
         description: "Members with Write access to the modelmesh repository"
         members:
         - DaoDaoNoCode
-        - Dbryant58
         - DharmitD
         - HumairAK
         - Jooho
@@ -176,6 +175,7 @@ orgs:
         - atheo89
         - dchourasia
         - dfeddema
+        - dibryant
         - durandom
         - gmfrasca
         - goern
@@ -198,7 +198,6 @@ orgs:
         description: "Members with Write access to the modelmesh-runtime-adapter repository"
         members:
         - DaoDaoNoCode
-        - Dbryant58
         - DharmitD
         - HumairAK
         - Jooho
@@ -209,6 +208,7 @@ orgs:
         - atheo89
         - dchourasia
         - dfeddema
+        - dibryant
         - durandom
         - gmfrasca
         - goern
@@ -231,7 +231,6 @@ orgs:
         description: "Members with Write access to the modelmesh-serving repository"
         members:
         - DaoDaoNoCode
-        - Dbryant58
         - DharmitD
         - HumairAK
         - Jooho
@@ -242,6 +241,7 @@ orgs:
         - atheo89
         - dchourasia
         - dfeddema
+        - dibryant
         - durandom
         - gmfrasca
         - goern
@@ -264,7 +264,6 @@ orgs:
         description: "Members with Write access to the rest-proxy repository"
         members:
         - DaoDaoNoCode
-        - Dbryant58
         - DharmitD
         - HumairAK
         - Jooho
@@ -275,6 +274,7 @@ orgs:
         - atheo89
         - dchourasia
         - dfeddema
+        - dibryant
         - durandom
         - gmfrasca
         - goern
@@ -297,7 +297,6 @@ orgs:
         description: "Members with Write access to the odh-model-controller repository"
         members:
         - DaoDaoNoCode
-        - Dbryant58
         - DharmitD
         - HumairAK
         - Jooho
@@ -307,6 +306,7 @@ orgs:
         - andrewballantyne
         - atheo89
         - dchourasia
+        - dibryant
         - dfeddema
         - durandom
         - gmfrasca
@@ -330,7 +330,6 @@ orgs:
         description: "Members with Write access to the data-science-pipelines repository"
         members:
         - DaoDaoNoCode
-        - Dbryant58
         - DharmitD
         - HumairAK
         - Jooho
@@ -341,6 +340,7 @@ orgs:
         - atheo89
         - dchourasia
         - dfeddema
+        - dibryant
         - durandom
         - gmfrasca
         - goern
@@ -375,6 +375,7 @@ orgs:
         - LaVLaS
         - VaishnaviHire
         members:
+        - dibryant
         - harshad16
         - maroroman
         - mlassak
