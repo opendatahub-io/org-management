@@ -72,6 +72,7 @@ orgs:
     - ruivieira
     - sesheta
     - simrandhaliw
+    - Srihari1192
     - sutaakar
     - tedhtchang
     - tteofili
@@ -143,7 +144,9 @@ orgs:
         - jiripetrlik
         - Maxusmusti
         - KPostOffice
+        - Srihari1192
         - sutaakar
+
         privacy: closed
         repos:
           distributed-workloads: maintain
