@@ -24,6 +24,7 @@ orgs:
     - atheo89
     - carsonmh
     - chtyler
+    - ChughShilpa
     - DaoDaoNoCode
     - danielezonca
     - Dbryant58
@@ -55,6 +56,7 @@ orgs:
     - Jooho
     - judyobrienie
     - kaedward
+    - keklundrh
     - KPostOffice
     - kywalker-rh
     - lucferbux
@@ -71,6 +73,7 @@ orgs:
     - sesheta
     - simrandhaliw
     - Srihari1192
+    - sutaakar
     - tedhtchang
     - tteofili
     - VaishnaviHire
@@ -136,11 +139,14 @@ orgs:
         - anishasthana
         - astefanutti
         - carsonmh
+        - ChughShilpa
         - dimakis
         - jiripetrlik
         - Maxusmusti
         - KPostOffice
         - Srihari1192
+        - sutaakar
+
         privacy: closed
         repos:
           distributed-workloads: maintain
@@ -358,6 +364,7 @@ orgs:
         maintainers:
         - LaVLaS
         - VaishnaviHire
+        - harshad16
         privacy: closed
         repos:
           kubeflow: admin
@@ -448,6 +455,8 @@ orgs:
           - LaVLaS
         members:
           - andrewballantyne
+          - keklundrh
+          - jedemo
         privacy: closed
         repos:
           opendatahub-community: maintain

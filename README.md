@@ -19,7 +19,7 @@ Requirements
 * Add only one new member per commit (if you add two members separate it in two commits
 * Commit message format `Add <USERNAME> to <opendatahub-io, mlops-sig, ...> org`. 
 
-* New GitHub team requests can only come from an exsisting opendatahub-io member who will function as the maintainer of the team. Each additional member will follow the same requirements for adding new members
+* New GitHub team requests can only come from an existing opendatahub-io member who will function as the maintainer of the team. Each additional member will follow the same requirements for adding new members
 * Commit message format `Create <TEAMNAME>`
 
 ## Community, discussion, contribution, and support
