@@ -568,3 +568,14 @@ orgs:
           odh-model-controller: write
           opendatahub-operator: write
           modelmesh-serving: write
+      ODH Org Management Maintainers:
+        description: Maintainers of the ODH Org Management repo
+        maintainers:
+          - accorvin
+          - anishasthana
+          - jkoehler-redhat
+          - LaVLaS
+          - VaishnaviHire
+        privacy: closed
+        repos:
+          org-management: admin
