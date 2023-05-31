@@ -458,6 +458,7 @@ orgs:
           - andrewballantyne
           - keklundrh
           - jedemo
+          - kywalker-rh
         privacy: closed
         repos:
           opendatahub-community: maintain
