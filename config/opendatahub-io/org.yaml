@@ -86,6 +86,7 @@ orgs:
     - InnocentK
     - aslakknutsen
     - yannnz
+    - yih-wang
     members_can_create_repositories: false
     name: Open Data Hub
     teams:
