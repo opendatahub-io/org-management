@@ -1,0 +1,17 @@
+name: Check Membership Pull Request
+on:
+  pull_request:
+  pull_request_review:
+jobs:
+  check-membership-approvals:
+    runs-on: ubuntu-latest
+    container:
+      image: quay.io/opendatahub/org-management-checker:v0.0.1
+    steps:
+      - uses: actions/checkout@v2
+      - name: Run PR validation
+        run: python3 /tmp/main.py
+        env:
+          TOKEN: ${{secrets.GITHUB_TOKEN}}
+          PR_NUMBER: ${{github.event.pull_request.number}}
+          REPO: ${{github.repository}}

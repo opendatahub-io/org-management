@@ -1,0 +1,5 @@
+FROM registry.access.redhat.com/ubi9/python-311:1-7.1684740557
+
+COPY requirements.txt /tmp/requirements.txt
+RUN pip install -r /tmp/requirements.txt
+COPY main.py /tmp/main.py
