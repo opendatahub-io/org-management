@@ -88,6 +88,7 @@ orgs:
     - aslakknutsen
     - yannnz
     - yih-wang
+    - vaibhavjainwiz
     members_can_create_repositories: false
     name: Open Data Hub
     teams:
@@ -194,6 +195,7 @@ orgs:
         - lugi0
         - maroroman
         - rimolive
+        - vaibhavjainwiz
         privacy: closed
         repos:
           modelmesh: write
@@ -227,6 +229,7 @@ orgs:
         - lugi0
         - maroroman
         - rimolive
+        - vaibhavjainwiz
         privacy: closed
         repos:
           modelmesh-runtime-adapter: write
@@ -260,6 +263,7 @@ orgs:
         - lugi0
         - maroroman
         - rimolive
+        - vaibhavjainwiz
         privacy: closed
         repos:
           modelmesh-serving: write
@@ -293,6 +297,7 @@ orgs:
         - lugi0
         - maroroman
         - rimolive
+        - vaibhavjainwiz
         privacy: closed
         repos:
           rest-proxy: write
@@ -326,6 +331,7 @@ orgs:
         - lugi0
         - maroroman
         - rimolive
+        - vaibhavjainwiz
         privacy: closed
         repos:
           odh-model-controller: write
