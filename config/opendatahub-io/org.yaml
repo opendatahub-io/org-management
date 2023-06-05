@@ -194,6 +194,7 @@ orgs:
         - lugi0
         - maroroman
         - rimolive
+        - vaibhavjainwiz
         privacy: closed
         repos:
           modelmesh: write
@@ -227,6 +228,7 @@ orgs:
         - lugi0
         - maroroman
         - rimolive
+        - vaibhavjainwiz
         privacy: closed
         repos:
           modelmesh-runtime-adapter: write
@@ -294,6 +296,7 @@ orgs:
         - lugi0
         - maroroman
         - rimolive
+        - vaibhavjainwiz
         privacy: closed
         repos:
           rest-proxy: write
