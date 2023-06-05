@@ -461,6 +461,7 @@ orgs:
           - keklundrh
           - jedemo
           - kywalker-rh
+          - RobGeada
         privacy: closed
         repos:
           opendatahub-community: maintain
