@@ -67,6 +67,7 @@ orgs:
     - Maxusmusti
     - MichaelClifford
     - mlassak
+    - pnaik1
     - r00ta
     - rimolive
     - RobGeada
@@ -416,6 +417,7 @@ orgs:
         - lucferbux
         - DaoDaoNoCode
         - manaswinidas
+        - pnaik1
         privacy: closed
         repos:
           odh-dashboard: maintain
