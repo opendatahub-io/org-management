@@ -17,12 +17,16 @@ def main():
     affected_teams = get_affected_groups(old_odh_org, new_odh_org)
     approver_teams = get_valid_approvers(old_odh_org, affected_teams)
     pr_approvers = get_pr_approvers(pr_number, os.environ.get("TOKEN"))
+
+    approved = True
     for team in approver_teams:
         if team[1].intersection(pr_approvers):
-            print(f"Valid reviewer found for {team[0]} in PR approvers: {pr_approvers}")
+            print(f"Valid reviewer found for {team[0]} in PR approvers.")
         else:
-            print(f"No valid reviewers found for {team[0]} in PR approvers: {pr_approvers}")
-            exit(1)
+            print(f"No valid reviewers found for {team[0]} in PR approvers. Request approval from one of the following: {team[1]}")
+            approved = False
+    if not approved:
+        exit(1)
 
 
 def get_affected_groups(old_org, new_org):
