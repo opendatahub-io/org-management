@@ -62,6 +62,7 @@ orgs:
     - kywalker-rh
     - lucferbux
     - lugi0
+    - manaswinidas
     - maroroman
     - Maxusmusti
     - MichaelClifford
@@ -414,6 +415,7 @@ orgs:
         - Gkrumbach07
         - lucferbux
         - DaoDaoNoCode
+        - manaswinidas
         privacy: closed
         repos:
           odh-dashboard: maintain
