@@ -6,7 +6,7 @@ jobs:
   check-membership-approvals:
     runs-on: ubuntu-latest
     container:
-      image: quay.io/opendatahub/org-management-checker:v0.0.3
+      image: quay.io/opendatahub/org-management-checker:v0.0.4
     steps:
       - uses: actions/checkout@v3
       - name: Run PR validation

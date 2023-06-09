@@ -62,6 +62,8 @@ def get_valid_approvers(org: dict, groups: dict):
 
 
 def get_pr_approvers(id: int, token: str):
+    people_who_rejected = set()
+
     response = requests.get(
         "https://api.github.com/repos/" + os.environ.get("REPO") + "/pulls/" + id + "/reviews",
         headers={
@@ -78,11 +80,14 @@ def get_pr_approvers(id: int, token: str):
         approved_users = set()
         for review in reviews:
             if review['state'] == "CHANGES_REQUESTED":
-                print(f"{review['user']['login']} has requested changes.")
-                exit(1)
+                people_who_rejected.add(review['user']['login'])
             if review['state'] == "APPROVED":
                 approved_users.add(review['user']['login'])
-
+                if review['user']['login'] in people_who_rejected:
+                    people_who_rejected.remove(review['user']['login'])
+        if (len(people_who_rejected) > 0):
+            print(f"The following people have requested changes: {people_who_rejected}")
+            exit(1)
         return approved_users
     else:
         print(f"Received an invalid response code: {response.status_code}")
