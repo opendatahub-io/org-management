@@ -51,7 +51,11 @@ def get_affected_groups(old_org, new_org):
 def get_valid_approvers(org: dict, groups: dict):
     approvers = []
     for team in groups["teams"]:
-        approvers.append((team, set(org.get("teams").get(team).get("maintainers"))))
+        maintainers = org.get("teams").get(team).get("maintainers")
+        if maintainers:
+            approvers.append((team, set(maintainers)))
+        else:
+            print(f"{team} does not have a maintainers defined.")
     if groups["org_changed"]:
         approvers.append((org.get("name"), set(org.get("admins"))))
     return approvers
