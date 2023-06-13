@@ -163,10 +163,10 @@ orgs:
         - sutaakar
         - tedhtchang
         - VanillaSpoon
-
         privacy: closed
         repos:
           distributed-workloads: maintain
+          kuberay: maintain
       Elyra Maintainers:
         description: Maintainers of the Elyra AI notebook and build pipelines
         maintainers:
