@@ -147,7 +147,6 @@ orgs:
         maintainers:
         - accorvin
         members:
-        - MichaelClifford
         - amsharma3  
         - anishasthana
         - astefanutti
@@ -157,8 +156,9 @@ orgs:
         - dimakis
         - Fiona-Waters
         - jiripetrlik
-        - Maxusmusti
         - KPostOffice
+        - Maxusmusti
+        - MichaelClifford
         - Srihari1192
         - sutaakar
         - tedhtchang
