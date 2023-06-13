@@ -146,9 +146,9 @@ orgs:
         description: ""
         maintainers:
         - accorvin
-        members:
-        - amsharma3  
         - anishasthana
+        members:
+        - amsharma3
         - astefanutti
         - Bobbins228
         - carsonmh
