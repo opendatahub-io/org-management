@@ -435,6 +435,7 @@ orgs:
       ODH Operator Maintainers:
         description: Maintainers of the ODH Operator repo
         maintainers:
+        - etirelli
         - LaVLaS
         - VaishnaviHire
         privacy: closed
@@ -443,6 +444,7 @@ orgs:
       ODH Community Maintainers:
         description: Maintainers of the ODH Community repo
         maintainers:
+          - etirelli
           - jkoehler-redhat
           - LaVLaS
         members:
