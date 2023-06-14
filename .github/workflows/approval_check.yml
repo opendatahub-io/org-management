@@ -1,12 +1,12 @@
 name: Check Membership Pull Request
 on:
   pull_request:
+    paths:
+      - "config/opendatahub-io/org.yaml"
   pull_request_review:
 jobs:
   check-membership-approvals:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     container:
       image: quay.io/opendatahub/org-management-checker:v0.0.4
     steps:
@@ -18,17 +18,13 @@ jobs:
           TOKEN: ${{secrets.GITHUB_TOKEN}}
           PR_NUMBER: ${{github.event.pull_request.number}}
           REPO: ${{github.repository}}
-
-      - name: Merge PR if validation succeeded
+      - name: Save PR number
         if: steps.pr-validation.outcome == 'success'
-        uses: actions/github-script@v4
+        run: |
+          mkdir -p ./pr
+          echo ${{ github.event.number }} > ./pr/NR
+      - uses: actions/upload-artifact@v2
+        if: steps.pr-validation.outcome == 'success'
         with:
-          script: |
-            const response = await github.pulls.merge({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              pull_number: context.payload.pull_request.number
-            });
-            console.log(response.data);
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          name: pr
+          path: pr/
