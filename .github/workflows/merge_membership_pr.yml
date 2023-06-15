@@ -1,0 +1,19 @@
+name: Merge PR if membership validation succeeded
+on:
+  workflow_run:
+    workflows:
+      - Check Membership Pull Request
+    types:
+      - completed
+jobs:
+  merge-pr:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Merge PR
+        run: |
+          github.pulls.merge({
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            pull_number: context.payload.workflow_run.parent.inputs.PR_NUMBER
+          });
