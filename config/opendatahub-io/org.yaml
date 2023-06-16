@@ -385,9 +385,9 @@ orgs:
       ODH Dashboard Maintainers:
         description: Maintainers of the ODH Dashboard repo
         maintainers:
+        - andrewballantyne
         - cfchase
         - LaVLaS
-        - andrewballantyne
         members:
         - alexcreasy
         - Gkrumbach07
