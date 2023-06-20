@@ -68,6 +68,7 @@ orgs:
     - manaswinidas
     - maroroman
     - Maxusmusti
+    - mholder6
     - MichaelClifford
     - mlassak
     - pnaik1
@@ -179,210 +180,27 @@ orgs:
         privacy: closed
         repos:
           s2i-lab-elyra: maintain
-      repo-kserve-write:
-        description: "Members with Write access to the kserve repository"
-        members:
-        - DaoDaoNoCode
-        - DharmitD
-        - HumairAK
-        - Jooho
-        - VaishnaviHire
-        - VannTen
-        - Xaenalt
-        - andrewballantyne
-        - atheo89
-        - dchourasia
-        - dfeddema
-        - dibryant
-        - durandom
-        - gmfrasca
-        - goern
-        - guimou
-        - harshad16
+      Model Serving Maintainers:
+        description: "Maintainers for Model Serving related repos."
+        maintainers:
+        - danielezonca
         - heyselbi
-        - jedemo
-        - jeff-phillips-18
-        - jgarciao
-        - judyobrienie
-        - kywalker-rh
-        - lucferbux
-        - lugi0
-        - maroroman
-        - rimolive
+        - Jooho
+        - taneem-ibrahim
+        members:
+        - israel-hdez
+        - mholder6
         - vaibhavjainwiz
+        - VedantMahabaleshwarkar
+        - Xaenalt
         privacy: closed
         repos:
-          kserve: write
-      repo-modelmesh-write:
-        description: "Members with Write access to the modelmesh repository"
-        members:
-        - DaoDaoNoCode
-        - DharmitD
-        - HumairAK
-        - Jooho
-        - VaishnaviHire
-        - VannTen
-        - Xaenalt
-        - andrewballantyne
-        - atheo89
-        - dchourasia
-        - dfeddema
-        - dibryant
-        - durandom
-        - gmfrasca
-        - goern
-        - guimou
-        - harshad16
-        - heyselbi
-        - jedemo
-        - jeff-phillips-18
-        - jgarciao
-        - judyobrienie
-        - kywalker-rh
-        - lucferbux
-        - lugi0
-        - maroroman
-        - rimolive
-        - vaibhavjainwiz
-        privacy: closed
-        repos:
-          modelmesh: write
-      repo-modelmesh-runtime-adapter-write:
-        description: "Members with Write access to the modelmesh-runtime-adapter repository"
-        members:
-        - DaoDaoNoCode
-        - DharmitD
-        - HumairAK
-        - Jooho
-        - VaishnaviHire
-        - VannTen
-        - Xaenalt
-        - andrewballantyne
-        - atheo89
-        - dchourasia
-        - dfeddema
-        - dibryant
-        - durandom
-        - gmfrasca
-        - goern
-        - guimou
-        - harshad16
-        - heyselbi
-        - jedemo
-        - jeff-phillips-18
-        - jgarciao
-        - judyobrienie
-        - kywalker-rh
-        - lucferbux
-        - lugi0
-        - maroroman
-        - rimolive
-        - vaibhavjainwiz
-        privacy: closed
-        repos:
-          modelmesh-runtime-adapter: write
-      repo-modelmesh-serving-write:
-        description: "Members with Write access to the modelmesh-serving repository"
-        members:
-        - DaoDaoNoCode
-        - DharmitD
-        - HumairAK
-        - Jooho
-        - VaishnaviHire
-        - VannTen
-        - Xaenalt
-        - andrewballantyne
-        - atheo89
-        - dchourasia
-        - dfeddema
-        - dibryant
-        - durandom
-        - gmfrasca
-        - goern
-        - guimou
-        - harshad16
-        - heyselbi
-        - jedemo
-        - jeff-phillips-18
-        - jgarciao
-        - judyobrienie
-        - kywalker-rh
-        - lucferbux
-        - lugi0
-        - maroroman
-        - rimolive
-        - vaibhavjainwiz
-        privacy: closed
-        repos:
-          modelmesh-serving: write
-      repo-rest-proxy-write:
-        description: "Members with Write access to the rest-proxy repository"
-        members:
-        - DaoDaoNoCode
-        - DharmitD
-        - HumairAK
-        - Jooho
-        - VaishnaviHire
-        - VannTen
-        - Xaenalt
-        - andrewballantyne
-        - atheo89
-        - dchourasia
-        - dfeddema
-        - dibryant
-        - durandom
-        - gmfrasca
-        - goern
-        - guimou
-        - harshad16
-        - heyselbi
-        - jedemo
-        - jeff-phillips-18
-        - jgarciao
-        - judyobrienie
-        - kywalker-rh
-        - lucferbux
-        - lugi0
-        - maroroman
-        - rimolive
-        - vaibhavjainwiz
-        privacy: closed
-        repos:
-          rest-proxy: write
-      repo-odh-model-controller-write:
-        description: "Members with Write access to the odh-model-controller repository"
-        members:
-        - DaoDaoNoCode
-        - DharmitD
-        - HumairAK
-        - Jooho
-        - VaishnaviHire
-        - VannTen
-        - Xaenalt
-        - andrewballantyne
-        - atheo89
-        - dchourasia
-        - dibryant
-        - dfeddema
-        - durandom
-        - gmfrasca
-        - goern
-        - guimou
-        - harshad16
-        - heyselbi
-        - jedemo
-        - jeff-phillips-18
-        - jgarciao
-        - judyobrienie
-        - kywalker-rh
-        - lucferbux
-        - lugi0
-        - maroroman
-        - rimolive
-        - vaibhavjainwiz
-        privacy: closed
-        repos:
-          odh-model-controller: write
+          kserve: admin
+          modelmesh: admin
+          modelmesh-runtime-adapter: admin
+          modelmesh-serving: admin
+          odh-model-controller: admin
+          rest-proxy: admin
       Notebook Controller Maintainers:
         description: Maintainers of the notebook controller and all connected repos
         maintainers:
@@ -485,6 +303,7 @@ orgs:
         members:
           - andrewballantyne
           - anishasthana
+          - heyselbi
           - jedemo
           - keklundrh
           - kywalker-rh
