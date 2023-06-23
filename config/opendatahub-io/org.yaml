@@ -361,6 +361,7 @@ orgs:
       SIG ML Developer Experience:
         description: Chairs of the ML Developer Experience SIG
         maintainers:
+        - andrewballantyne
         - LaVLaS
         - erwangranger
         - kywalker-rh
