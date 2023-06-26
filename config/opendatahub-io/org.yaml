@@ -201,6 +201,7 @@ orgs:
           modelmesh: admin
           modelmesh-runtime-adapter: admin
           modelmesh-serving: admin
+          odh-manifests: write
           odh-model-controller: admin
           rest-proxy: admin
           text-generation-inference: admin
