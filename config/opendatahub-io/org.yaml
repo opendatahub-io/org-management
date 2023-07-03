@@ -199,6 +199,7 @@ orgs:
           caikit: admin
           caikit-nlp: admin
           caikit-tgis-backend: admin
+          caikit-tgis-serving: admin
           kserve: admin
           modelmesh: admin
           modelmesh-runtime-adapter: admin
