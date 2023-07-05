@@ -205,6 +205,7 @@ orgs:
           modelmesh-runtime-adapter: admin
           modelmesh-serving: admin
           odh-model-controller: admin
+          opendatahub-community: triage
           rest-proxy: admin
           text-generation-inference: admin
       Notebook Controller Maintainers:
