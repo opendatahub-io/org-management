@@ -103,6 +103,7 @@ orgs:
     - yannnz
     - yih-wang
     - vaibhavjainwiz
+    - winklerm
     - zdtsw
     members_can_create_repositories: false
     name: Open Data Hub
@@ -170,6 +171,7 @@ orgs:
         - sutaakar
         - tedhtchang
         - VanillaSpoon
+        - winklerm
         privacy: closed
         repos:
           distributed-workloads: maintain
