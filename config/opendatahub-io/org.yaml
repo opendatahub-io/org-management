@@ -454,3 +454,16 @@ orgs:
         privacy: closed
         repos:
           org-management: admin
+      AI Edge Maintainers:
+        description: Maintainers of the AI Edge Repo
+        maintainers:
+          - LaVLaS
+        members:
+          - devguyio
+          - grdryn
+          - gzaronikas
+          - piotrpdev
+          - steventobin
+        privacy: closed
+        repos:
+          ai-edge: write
