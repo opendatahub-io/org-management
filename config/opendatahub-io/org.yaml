@@ -86,6 +86,7 @@ orgs:
     - ralombar
     - r00ta
     - rimolive
+    - rkpattnaik780
     - RobGeada
     - romeokienzler
     - ruivieira
@@ -242,6 +243,7 @@ orgs:
         - harshad16
         - maroroman
         - mlassak
+        - rkpattnaik780
         privacy: closed
         repos:
           kubeflow: triage
