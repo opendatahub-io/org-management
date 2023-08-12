@@ -459,8 +459,8 @@ orgs:
         description: Maintainers of the AI Edge Repo
         maintainers:
           - LaVLaS
-        members:
           - devguyio
+        members:
           - grdryn
           - gzaronikas
           - israel-hdez
