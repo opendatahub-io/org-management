@@ -274,28 +274,31 @@ orgs:
           opendatahub-community: triage
           rest-proxy: admin
           text-generation-inference: admin
-      Notebook Controller Maintainers:
+      Notebook Maintainers:
         description: Maintainers of the notebook controller and all connected repos
         maintainers:
         - LaVLaS
         - harshad16
+        - atheo89
         privacy: closed
         repos:
           kubeflow: admin
-      Notebook Controller Triage:
+          notebooks: admin
+      Notebook Devs:
         description: Members with triage access to repos maintained by the Notebook
-          Controller contributors
+          contributors
         maintainers:
         - LaVLaS
-        members:
-        - dibryant
         - harshad16
-        - maroroman
+        members:
+        - atheo89
+        - dibryant
         - mlassak
         - rkpattnaik780
         privacy: closed
         repos:
           kubeflow: triage
+          notebooks: triage
       ODH Dashboard UX:
         description: UX team working on the ODH Dashboard component
         maintainers:
@@ -364,16 +367,6 @@ orgs:
         privacy: closed
         repos:
           opendatahub-documentation: admin
-      ODH Notebook Admins:
-        description: Team responsible for managing the ODH Core notebook repository
-        maintainers:
-        - LaVLaS
-        members:
-        - atheo89
-        - harshad16
-        privacy: closed
-        repos:
-          notebooks: admin
       ODH Operator Maintainers:
         description: Maintainers of the ODH Operator repo
         maintainers:
