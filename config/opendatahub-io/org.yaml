@@ -85,6 +85,7 @@ orgs:
     - mlassak
     - piotrpdev
     - pnaik1
+    - ppadti
     - ralombar
     - r00ta
     - rimolive
@@ -276,6 +277,7 @@ orgs:
         - DaoDaoNoCode
         - manaswinidas
         - pnaik1
+        - ppadti
         privacy: closed
         repos:
           odh-dashboard: maintain
