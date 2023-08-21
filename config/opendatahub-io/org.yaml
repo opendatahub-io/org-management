@@ -42,6 +42,7 @@ orgs:
     - dlabaj
     - dibryant
     - dimakis
+    - dpanshug
     - durandom
     - erwangranger
     - etirelli
@@ -278,6 +279,7 @@ orgs:
         - manaswinidas
         - pnaik1
         - ppadti
+        - dpanshug
         privacy: closed
         repos:
           odh-dashboard: maintain
