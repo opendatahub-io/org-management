@@ -202,6 +202,15 @@ orgs:
         privacy: closed
         repos:
           s2i-lab-elyra: maintain
+      Model Registry Maintainers:
+        description: "Maintainers for Model Registry related repos."
+        maintainers:
+        - dhirajsb
+        - lampajr
+        - tarilabs
+        privacy: closed
+        repos:
+          model-registry: admin
       Model Serving Maintainers:
         description: "Maintainers for Model Serving related repos."
         maintainers:
