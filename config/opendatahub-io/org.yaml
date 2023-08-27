@@ -60,6 +60,7 @@ orgs:
     - heyselbi
     - HumairAK
     - israel-hdez
+    - isinyaaa
     - jbusche
     - jbyrne-redhat
     - jedemo
@@ -204,6 +205,7 @@ orgs:
         description: "Maintainers for Model Registry related repos."
         maintainers:
         - dhirajsb
+        - isinyaaa
         - lampajr
         - tarilabs
         privacy: closed
