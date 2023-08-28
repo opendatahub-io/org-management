@@ -208,8 +208,6 @@ orgs:
         - lampajr
         - tarilabs
         privacy: closed
-        repos:
-          model-registry: admin
       Model Serving Maintainers:
         description: "Maintainers for Model Serving related repos."
         maintainers:
