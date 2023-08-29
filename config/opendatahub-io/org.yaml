@@ -120,6 +120,7 @@ orgs:
     - vaibhavjainwiz
     - winklerm
     - zdtsw
+    - abdhumal
     members_can_create_repositories: false
     name: Open Data Hub
     teams:
@@ -186,6 +187,7 @@ orgs:
         - tedhtchang
         - VanillaSpoon
         - winklerm
+        - abdhumal
         privacy: closed
         repos:
           distributed-workloads: maintain
