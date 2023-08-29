@@ -305,7 +305,6 @@ orgs:
         - andrewballantyne
         - alexcreasy
         - lucferbux
-        - DaoDaoNoCode
         privacy: closed
         repos:
           odh-dashboard: admin
