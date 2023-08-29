@@ -285,15 +285,15 @@ orgs:
         members:
         - alexcreasy
         - christianvogt
-        - uidoyen
-        - Gkrumbach07
-        - lucferbux
-        - kywalker-rh
         - DaoDaoNoCode
+        - dpanshug
+        - Gkrumbach07
+        - kywalker-rh
+        - lucferbux
         - manaswinidas
         - pnaik1
         - ppadti
-        - dpanshug
+        - uidoyen
         privacy: closed
         repos:
           odh-dashboard: maintain
