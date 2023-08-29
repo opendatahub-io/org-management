@@ -270,6 +270,7 @@ orgs:
       ODH Dashboard Developers:
         description: Contributors to Dashboard
         maintainers:
+        - andrewballantyne
         - jkoehler-redhat
         members:
         - anishasthana
