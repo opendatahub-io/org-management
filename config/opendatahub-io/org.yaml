@@ -283,7 +283,6 @@ orgs:
         - cfchase
         - LaVLaS
         members:
-        - alexcreasy
         - christianvogt
         - DaoDaoNoCode
         - dpanshug
@@ -302,8 +301,8 @@ orgs:
         maintainers:
         - jkoehler-redhat
         members:
-        - andrewballantyne
         - alexcreasy
+        - andrewballantyne
         - lucferbux
         privacy: closed
         repos:
