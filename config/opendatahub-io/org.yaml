@@ -285,7 +285,6 @@ orgs:
         - cfchase
         - LaVLaS
         members:
-        - christianvogt
         - DaoDaoNoCode
         - dpanshug
         - Gkrumbach07
@@ -305,6 +304,7 @@ orgs:
         members:
         - alexcreasy
         - andrewballantyne
+        - christianvogt
         - lucferbux
         privacy: closed
         repos:
