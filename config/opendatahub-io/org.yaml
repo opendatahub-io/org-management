@@ -299,6 +299,7 @@ orgs:
       ODH Dashboard Owners:
         description: Dashboard Owners
         maintainers:
+        - andrewballantyne
         - jkoehler-redhat
         members:
         - alexcreasy
