@@ -197,6 +197,21 @@ orgs:
         repos:
           distributed-workloads: maintain
           kuberay: maintain
+      Distributed Workloads Owners:
+        description: ""
+        maintainers:
+        - accorvin
+        - anishasthana
+        members:
+        - accorvin
+        - anishasthana
+        - astefanutti
+        - dimakis
+        - sutaakar
+        privacy: closed
+        repos:
+          distributed-workloads: admin
+          kuberay: admin
       Elyra Maintainers:
         description: Maintainers of the Elyra AI notebook and build pipelines
         maintainers:
