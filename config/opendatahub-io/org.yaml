@@ -20,6 +20,7 @@ orgs:
     - uidoyen
     - abhijeet-dhumal
     - adelton
+    - ajaganat
     - ajaypratap003
     - akchinSTC
     - alexcreasy
@@ -146,6 +147,7 @@ orgs:
         - LaVLaS
         - VaishnaviHire
         members:
+        - ajaganat
         - ajaypratap003
         - harshad16
         - VannTen
@@ -378,6 +380,8 @@ orgs:
         - LaVLaS
         - VaishnaviHire
         - zdtsw
+        members:
+        - ajaganat        
         privacy: closed
         repos:
           opendatahub-operator: admin
