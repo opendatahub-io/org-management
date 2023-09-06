@@ -334,6 +334,7 @@ orgs:
       ODH Operator Maintainers:
         description: Maintainers of the ODH Operator repo
         maintainers:
+        - asanzgom
         - etirelli
         - LaVLaS
         - VaishnaviHire
