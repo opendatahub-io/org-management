@@ -338,6 +338,7 @@ orgs:
         - LaVLaS
         - VaishnaviHire
         - zdtsw
+        - STEPHINRACHEL
         privacy: closed
         repos:
           opendatahub-operator: admin
