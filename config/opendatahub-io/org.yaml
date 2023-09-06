@@ -114,6 +114,7 @@ orgs:
     - VannTen
     - vconzola
     - VedantMahabaleshwarkar
+    - vmudadla
     - Xaenalt
     - xianli123
     - bartoszmajsak
@@ -168,6 +169,7 @@ orgs:
         - DharmitD
         - gmfrasca
         - rimolive
+        - vmudadla
         privacy: closed
         repos:
           data-science-pipelines-operator: admin
