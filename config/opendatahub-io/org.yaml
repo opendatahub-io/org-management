@@ -24,6 +24,7 @@ orgs:
     - amsharma3
     - andrewballantyne
     - anishasthana
+    - asanzgom
     - astefanutti
     - atheo89
     - Bobbins228
@@ -334,7 +335,6 @@ orgs:
       ODH Operator Maintainers:
         description: Maintainers of the ODH Operator repo
         maintainers:
-        - asanzgom
         - etirelli
         - LaVLaS
         - VaishnaviHire
