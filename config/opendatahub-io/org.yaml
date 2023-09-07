@@ -18,6 +18,7 @@ orgs:
     - uidoyen
     - abhijeet-dhumal
     - adelton
+    - ajaypratap003
     - akchinSTC
     - alexcreasy
     - amadhusu
@@ -141,6 +142,7 @@ orgs:
         - LaVLaS
         - VaishnaviHire
         members:
+        - ajaypratap003
         - harshad16
         - VannTen
         privacy: closed
@@ -151,6 +153,8 @@ orgs:
         maintainers:
         - LaVLaS
         - VaishnaviHire
+        members:
+        - ajaypratap003
         privacy: closed
         repos:
           odh-manifests: triage
@@ -348,6 +352,7 @@ orgs:
       ODH Operator Maintainers:
         description: Maintainers of the ODH Operator repo
         maintainers:
+        - ajaypratap003
         - etirelli
         - LaVLaS
         - VaishnaviHire
