@@ -2,6 +2,7 @@ orgs:
   opendatahub-io:
     admins:
     - accorvin
+    - catrobson
     - cfchase
     - jkoehler-redhat
     - LaVLaS
@@ -53,6 +54,7 @@ orgs:
     - fcami
     - Fiona-Waters
     - Gkrumbach07
+    - gmarkley-VI
     - gmfrasca
     - goern
     - grdryn
