@@ -296,6 +296,7 @@ orgs:
         - andrewballantyne
         - kywalker-rh
         members:
+        - kaedward
         - vconzola
         privacy: closed
         repos:
