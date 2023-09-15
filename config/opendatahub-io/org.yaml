@@ -298,6 +298,7 @@ orgs:
         members:
         - kaedward
         - vconzola
+        - xianli123
         privacy: closed
         repos:
           odh-dashboard: maintain
