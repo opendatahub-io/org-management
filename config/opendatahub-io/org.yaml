@@ -290,6 +290,21 @@ orgs:
         privacy: closed
         repos:
           kubeflow: triage
+      ODH Dashboard UX:
+        description: UX team working on the ODH Dashboard component
+        maintainers:
+        - andrewballantyne
+        - kywalker-rh
+        members:
+        - kaedward
+        - simrandhaliw
+        - vconzola
+        - xianli123
+        - yannnz
+        - yih-wang
+        privacy: closed
+        repos:
+          odh-dashboard: maintain
       ODH Dashboard Developers:
         description: Contributors to Dashboard
         maintainers:
@@ -312,7 +327,6 @@ orgs:
         - DaoDaoNoCode
         - dpanshug
         - Gkrumbach07
-        - kywalker-rh
         - manaswinidas
         - pnaik1
         - ppadti
