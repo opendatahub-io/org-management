@@ -295,6 +295,8 @@ orgs:
         maintainers:
         - andrewballantyne
         - kywalker-rh
+        members:
+        - vconzola
         privacy: closed
         repos:
           odh-dashboard: maintain
