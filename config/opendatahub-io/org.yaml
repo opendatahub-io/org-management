@@ -540,3 +540,11 @@ orgs:
         privacy: closed
         repos:
           ai-edge: write
+      AI Edge Admins:
+        description: Admins of the AI Edge Repo
+        maintainers:
+          - LaVLaS
+          - devguyio
+        privacy: closed
+        repos:
+          ai-edge: admin
