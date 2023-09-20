@@ -476,6 +476,7 @@ orgs:
         maintainers:
         - etirelli
         - gregsheremeta
+        - jeremyeder
         - LaVLaS
         privacy: closed
         repos:
