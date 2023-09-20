@@ -472,6 +472,7 @@ orgs:
       adr-maintainers:
         description: Maintainers of the ADR repository
         maintainers:
+        - etirelli
         - gregsheremeta
         - LaVLaS
         privacy: closed
