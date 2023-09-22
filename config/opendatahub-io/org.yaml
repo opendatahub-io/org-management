@@ -279,7 +279,6 @@ orgs:
         description: Maintainers of the notebook controller and all connected repos
         maintainers:
         - LaVLaS
-        - VaishnaviHire
         - harshad16
         privacy: closed
         repos:
@@ -289,7 +288,6 @@ orgs:
           Controller contributors
         maintainers:
         - LaVLaS
-        - VaishnaviHire
         members:
         - dibryant
         - harshad16
@@ -371,7 +369,6 @@ orgs:
         description: Team responsible for managing the ODH Core notebook repository
         maintainers:
         - LaVLaS
-        - VaishnaviHire
         members:
         - atheo89
         - harshad16
@@ -405,6 +402,7 @@ orgs:
           - keklundrh
           - kywalker-rh
           - RobGeada
+          - VaishnaviHire
         privacy: closed
         repos:
           opendatahub-community: maintain
@@ -487,6 +485,7 @@ orgs:
           repos
         maintainers:
         - LaVLaS
+        - VaishnaviHire
         members:
         - Gkrumbach07
         privacy: closed
@@ -499,6 +498,7 @@ orgs:
         members:
         - ezidav
         - maroroman
+        - VaishnaviHire
         privacy: closed
         repos:
           opendatahub.io: triage
