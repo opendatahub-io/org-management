@@ -20,7 +20,7 @@ orgs:
     - uidoyen
     - abhijeet-dhumal
     - adelton
-    - ajaganat
+    - AjayJagan
     - ajaypratap003
     - akchinSTC
     - alexcreasy
@@ -71,6 +71,7 @@ orgs:
     - HumairAK
     - israel-hdez
     - isinyaaa
+    - jackdelahunt
     - jbusche
     - jbyrne-redhat
     - jedemo
@@ -150,7 +151,7 @@ orgs:
         - LaVLaS
         - VaishnaviHire
         members:
-        - ajaganat
+        - AjayJagan
         - ajaypratap003
         - harshad16
         - VannTen
@@ -386,7 +387,7 @@ orgs:
         - VaishnaviHire
         - zdtsw
         members:
-        - ajaganat        
+        - AjayJagan        
         privacy: closed
         repos:
           opendatahub-operator: admin
@@ -475,6 +476,7 @@ orgs:
         maintainers:
         - etirelli
         - gregsheremeta
+        - jeremyeder
         - jwforres
         - LaVLaS
         privacy: closed
@@ -543,3 +545,11 @@ orgs:
         privacy: closed
         repos:
           ai-edge: write
+      AI Edge Admins:
+        description: Admins of the AI Edge Repo
+        maintainers:
+          - LaVLaS
+          - devguyio
+        privacy: closed
+        repos:
+          ai-edge: admin
