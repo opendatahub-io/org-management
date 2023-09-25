@@ -447,6 +447,17 @@ orgs:
         privacy: closed
         repos:
           sig-ml-developer-experience: admin
+      SIG Platform:
+        description: Chairs of the Platform SIG
+        maintainers:
+          - LaVLaS
+          - VaishnaviHire
+          - taneem-ibrahim
+          - jkoehler-redhat
+          - zdtsw
+        privacy: closed
+        repos:
+          sig-platform: admin
       SIG MLOps:
         description: The Chairs of the ML Ops SIG
         maintainers:
