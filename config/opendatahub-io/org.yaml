@@ -254,12 +254,12 @@ orgs:
         - heyselbi
         - Jooho
         - taneem-ibrahim
+        - Xaenalt
         members:
         - dtrifiro
         - israel-hdez
         - vaibhavjainwiz
         - VedantMahabaleshwarkar
-        - Xaenalt
         privacy: closed
         repos:
           caikit: admin
@@ -272,6 +272,7 @@ orgs:
           modelmesh-serving: admin
           odh-model-controller: admin
           opendatahub-community: triage
+          openvino_model_server: admin
           rest-proxy: admin
           text-generation-inference: admin
       Notebook Maintainers:
