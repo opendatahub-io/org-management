@@ -2,7 +2,9 @@ orgs:
   opendatahub-io:
     admins:
     - accorvin
+    - catrobson
     - cfchase
+    - gmarkley-vi
     - jkoehler-redhat
     - LaVLaS
     - openshift-ci-robot
@@ -18,6 +20,7 @@ orgs:
     - uidoyen
     - abhijeet-dhumal
     - adelton
+    - AjayJagan
     - ajaypratap003
     - akchinSTC
     - alexcreasy
@@ -32,6 +35,7 @@ orgs:
     - carsonmh
     - christianvogt
     - ChristianZaccaria
+    - cfullam1
     - chtyler
     - ChughShilpa
     - codeflare-machine-account
@@ -44,8 +48,10 @@ orgs:
     - dhirajsb
     - dlabaj
     - dibryant
+    - diegolovison
     - dimakis
     - dpanshug
+    - dtrifiro
     - durandom
     - erwangranger
     - etirelli
@@ -65,6 +71,7 @@ orgs:
     - HumairAK
     - israel-hdez
     - isinyaaa
+    - jackdelahunt
     - jbusche
     - jbyrne-redhat
     - jedemo
@@ -87,7 +94,6 @@ orgs:
     - manaswinidas
     - maroroman
     - Maxusmusti
-    - mholder6
     - MichaelClifford
     - mlassak
     - piotrpdev
@@ -125,6 +131,7 @@ orgs:
     - aslakknutsen
     - yannnz
     - yih-wang
+    - ykaliuta
     - vaibhavjainwiz
     - winklerm
     - zdtsw
@@ -145,9 +152,9 @@ orgs:
         - LaVLaS
         - VaishnaviHire
         members:
+        - AjayJagan
         - ajaypratap003
         - harshad16
-        - VannTen
         privacy: closed
         repos:
           odh-manifests: maintain
@@ -212,8 +219,6 @@ orgs:
         - accorvin
         - anishasthana
         members:
-        - accorvin
-        - anishasthana
         - astefanutti
         - dimakis
         - sutaakar
@@ -238,8 +243,11 @@ orgs:
         - dhirajsb
         - isinyaaa
         - lampajr
+        - rareddy
         - tarilabs
         privacy: closed
+        repos:
+          model-registry: admin
       Model Serving Maintainers:
         description: "Maintainers for Model Serving related repos."
         maintainers:
@@ -247,13 +255,13 @@ orgs:
         - heyselbi
         - Jooho
         - taneem-ibrahim
+        - Xaenalt
         members:
+        - dtrifiro
         - israel-hdez
-        - mholder6
         - rpancham
         - vaibhavjainwiz
         - VedantMahabaleshwarkar
-        - Xaenalt
         privacy: closed
         repos:
           caikit: admin
@@ -266,32 +274,51 @@ orgs:
           modelmesh-serving: admin
           odh-model-controller: admin
           opendatahub-community: triage
+          openvino_model_server: admin
           rest-proxy: admin
           text-generation-inference: admin
-      Notebook Controller Maintainers:
+      Notebook Maintainers:
         description: Maintainers of the notebook controller and all connected repos
         maintainers:
         - LaVLaS
-        - VaishnaviHire
         - harshad16
+        - atheo89
         privacy: closed
         repos:
           kubeflow: admin
-      Notebook Controller Triage:
+          notebooks: admin
+      Notebook Devs:
         description: Members with triage access to repos maintained by the Notebook
-          Controller contributors
+          contributors
         maintainers:
         - LaVLaS
-        - VaishnaviHire
-        members:
-        - dibryant
         - harshad16
-        - maroroman
+        members:
+        - atheo89
+        - dibryant
         - mlassak
         - rkpattnaik780
         privacy: closed
         repos:
           kubeflow: triage
+          notebooks: triage
+      ODH Dashboard UX:
+        description: UX team working on the ODH Dashboard component
+        maintainers:
+        - andrewballantyne
+        - kywalker-rh
+        members:
+        - cfullam1
+        - kaedward
+        - ralombar
+        - simrandhaliw
+        - vconzola
+        - xianli123
+        - yannnz
+        - yih-wang
+        privacy: closed
+        repos:
+          odh-dashboard: maintain
       ODH Dashboard Developers:
         description: Contributors to Dashboard
         maintainers:
@@ -314,7 +341,6 @@ orgs:
         - DaoDaoNoCode
         - dpanshug
         - Gkrumbach07
-        - kywalker-rh
         - manaswinidas
         - pnaik1
         - ppadti
@@ -344,17 +370,6 @@ orgs:
         privacy: closed
         repos:
           opendatahub-documentation: admin
-      ODH Notebook Admins:
-        description: Team responsible for managing the ODH Core notebook repository
-        maintainers:
-        - LaVLaS
-        - VaishnaviHire
-        members:
-        - atheo89
-        - harshad16
-        privacy: closed
-        repos:
-          notebooks: admin
       ODH Operator Maintainers:
         description: Maintainers of the ODH Operator repo
         maintainers:
@@ -363,6 +378,8 @@ orgs:
         - LaVLaS
         - VaishnaviHire
         - zdtsw
+        members:
+        - AjayJagan        
         privacy: closed
         repos:
           opendatahub-operator: admin
@@ -380,6 +397,7 @@ orgs:
           - keklundrh
           - kywalker-rh
           - RobGeada
+          - VaishnaviHire
         privacy: closed
         repos:
           opendatahub-community: maintain
@@ -432,6 +450,17 @@ orgs:
         privacy: closed
         repos:
           sig-ml-developer-experience: admin
+      SIG Platform:
+        description: Chairs of the Platform SIG
+        maintainers:
+          - LaVLaS
+          - VaishnaviHire
+          - taneem-ibrahim
+          - jkoehler-redhat
+          - zdtsw
+        privacy: closed
+        repos:
+          sig-platform: admin
       SIG MLOps:
         description: The Chairs of the ML Ops SIG
         maintainers:
@@ -449,7 +478,10 @@ orgs:
       adr-maintainers:
         description: Maintainers of the ADR repository
         maintainers:
+        - etirelli
         - gregsheremeta
+        - jeremyeder
+        - jwforres
         - LaVLaS
         privacy: closed
         repos:
@@ -459,6 +491,7 @@ orgs:
           repos
         maintainers:
         - LaVLaS
+        - VaishnaviHire
         members:
         - Gkrumbach07
         privacy: closed
@@ -471,6 +504,7 @@ orgs:
         members:
         - ezidav
         - maroroman
+        - VaishnaviHire
         privacy: closed
         repos:
           opendatahub.io: triage
@@ -507,11 +541,21 @@ orgs:
           - LaVLaS
           - devguyio
         members:
+          - biswassri
           - grdryn
           - gzaronikas
           - israel-hdez
+          - jackdelahunt  
           - piotrpdev
           - steventobin
         privacy: closed
         repos:
           ai-edge: write
+      AI Edge Admins:
+        description: Admins of the AI Edge Repo
+        maintainers:
+          - LaVLaS
+          - devguyio
+        privacy: closed
+        repos:
+          ai-edge: admin
