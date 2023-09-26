@@ -111,6 +111,7 @@ orgs:
     - ruivieira
     - sesheta
     - simrandhaliw
+    - shawkins
     - Srihari1192
     - steventobin
     - sutaakar
@@ -245,9 +246,12 @@ orgs:
         - lampajr
         - rareddy
         - tarilabs
+        members:
+        - shawkins
         privacy: closed
         repos:
           model-registry: admin
+          model-registry-operator: admin
       Model Serving Maintainers:
         description: "Maintainers for Model Serving related repos."
         maintainers:
