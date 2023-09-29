@@ -1,8 +1,5 @@
 name: Check Membership Pull Request
 on:
-  pull_request:
-    paths:
-      - "config/opendatahub-io/org.yaml"
   pull_request_review:
 jobs:
   check-membership-approvals:
