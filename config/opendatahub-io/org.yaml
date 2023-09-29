@@ -333,7 +333,6 @@ orgs:
         members:
         - anishasthana
         - jenny-s51
-        - maroroman
         privacy: closed
         repos:
           odh-dashboard: write
@@ -509,7 +508,6 @@ orgs:
         - LaVLaS
         members:
         - ezidav
-        - maroroman
         - VaishnaviHire
         privacy: closed
         repos:
