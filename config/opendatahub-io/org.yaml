@@ -11,6 +11,7 @@ orgs:
     - openshift-merge-robot
     - shgriffi
     - taneem-ibrahim
+    - dchourasia
     default_repository_permission: read
     description: "Organization for Open Data Hub community"
     has_organization_projects: true
