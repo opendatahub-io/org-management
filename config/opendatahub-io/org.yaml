@@ -449,10 +449,9 @@ orgs:
         description: Chairs of the ML Developer Experience SIG
         maintainers:
         - andrewballantyne
-        - LaVLaS
-        - erwangranger
+        - harshad16
         - kywalker-rh
-        - jkoehler-redhat
+        - LaVLaS
         privacy: closed
         repos:
           sig-ml-developer-experience: admin
