@@ -21,6 +21,7 @@ orgs:
     - uidoyen
     - abhijeet-dhumal
     - adelton
+    - adrielparedes
     - AjayJagan
     - ajaypratap003
     - akchinSTC
@@ -290,6 +291,7 @@ orgs:
         - LaVLaS
         - harshad16
         - atheo89
+        - adrielparedes
         privacy: closed
         repos:
           kubeflow: admin
@@ -300,6 +302,7 @@ orgs:
         maintainers:
         - LaVLaS
         - harshad16
+        - adrielparedes
         members:
         - atheo89
         - dibryant
