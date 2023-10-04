@@ -45,6 +45,7 @@ orgs:
     - danielezonca
     - devguyio
     - dfeddema
+    - dgutride
     - DharmitD
     - dhirajsb
     - dlabaj
@@ -315,6 +316,7 @@ orgs:
         description: UX team working on the ODH Dashboard component
         maintainers:
         - andrewballantyne
+        - dgutride
         - kywalker-rh
         members:
         - cfullam1
@@ -332,6 +334,7 @@ orgs:
         description: Contributors to Dashboard
         maintainers:
         - andrewballantyne
+        - dgutride
         - jkoehler-redhat
         members:
         - anishasthana
@@ -344,6 +347,7 @@ orgs:
         maintainers:
         - andrewballantyne
         - cfchase
+        - dgutride
         - LaVLaS
         members:
         - DaoDaoNoCode
@@ -360,6 +364,7 @@ orgs:
         description: Dashboard Owners
         maintainers:
         - andrewballantyne
+        - dgutride
         - jkoehler-redhat
         members:
         - alexcreasy
@@ -400,6 +405,7 @@ orgs:
         members:
           - andrewballantyne
           - anishasthana
+          - dgutride
           - heyselbi
           - jedemo
           - keklundrh
