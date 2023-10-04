@@ -82,6 +82,7 @@ orgs:
     - jgarciao
     - jiripetrlik
     - Jooho
+    - jstourac
     - judyobrienie
     - jwforres
     - kaedward
@@ -304,6 +305,7 @@ orgs:
         - dibryant
         - mlassak
         - rkpattnaik780
+        - jstourac
         privacy: closed
         repos:
           kubeflow: triage
