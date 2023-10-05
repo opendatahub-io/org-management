@@ -525,7 +525,6 @@ orgs:
         - israel-hdez
         privacy: closed
         repos:
-          odh-dashboard: write
           odh-manifests: write
           odh-model-controller: write
           opendatahub-operator: write
