@@ -522,6 +522,7 @@ orgs:
         members:
         - ezidav
         - VaishnaviHire
+        - zdtsw
         privacy: closed
         repos:
           opendatahub.io: triage
