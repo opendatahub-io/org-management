@@ -345,6 +345,7 @@ orgs:
         - jkoehler-redhat
         members:
         - anishasthana
+        - jedemo
         - jenny-s51
         privacy: closed
         repos:
