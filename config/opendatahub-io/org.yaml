@@ -11,6 +11,7 @@ orgs:
     - LaVLaS
     - openshift-ci-robot
     - openshift-merge-robot
+    - riprasad
     - shgriffi
     - taneem-ibrahim
     default_repository_permission: read
