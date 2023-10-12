@@ -11,6 +11,7 @@ orgs:
     - LaVLaS
     - openshift-ci-robot
     - openshift-merge-robot
+    - riprasad
     - shgriffi
     - taneem-ibrahim
     default_repository_permission: read
@@ -110,7 +111,6 @@ orgs:
     - rareddy
     - r00ta
     - rimolive
-    - riprasad
     - rkpattnaik780
     - RobGeada
     - romeokienzler
