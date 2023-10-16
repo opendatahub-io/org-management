@@ -291,7 +291,6 @@ orgs:
       Notebook Maintainers:
         description: Maintainers of the notebook controller and all connected repos
         maintainers:
-        - LaVLaS
         - harshad16
         - atheo89
         - adrielparedes
@@ -303,7 +302,6 @@ orgs:
         description: Members with triage access to repos maintained by the Notebook
           contributors
         maintainers:
-        - LaVLaS
         - harshad16
         - adrielparedes
         members:
