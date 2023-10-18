@@ -217,6 +217,7 @@ orgs:
         - winklerm
         privacy: closed
         repos:
+          codeflare-operator: maintain
           distributed-workloads: maintain
           kuberay: maintain
       Distributed Workloads Owners:
@@ -230,6 +231,7 @@ orgs:
         - sutaakar
         privacy: closed
         repos:
+          codeflare-operator: admin
           distributed-workloads: admin
           kuberay: admin
       Elyra Maintainers:
