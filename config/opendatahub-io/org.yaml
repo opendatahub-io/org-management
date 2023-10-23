@@ -144,6 +144,7 @@ orgs:
     - ykaliuta
     - vaibhavjainwiz
     - winklerm
+    - z103cb
     - zdtsw
     members_can_create_repositories: false
     name: Open Data Hub
@@ -279,6 +280,7 @@ orgs:
         - spolti
         - vaibhavjainwiz
         - VedantMahabaleshwarkar
+        - z103cb
         privacy: closed
         repos:
           caikit: admin
