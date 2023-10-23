@@ -356,6 +356,7 @@ orgs:
         - dgutride
         - LaVLaS
         members:
+        - adnankhan666
         - DaoDaoNoCode
         - dpanshug
         - Gkrumbach07
@@ -363,7 +364,6 @@ orgs:
         - pnaik1
         - ppadti
         - uidoyen
-        - adnankhan666
         privacy: closed
         repos:
           odh-dashboard: maintain
