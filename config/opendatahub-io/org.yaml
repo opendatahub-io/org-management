@@ -21,6 +21,7 @@ orgs:
     members:
     - 4n4nd
     - uidoyen
+    - adnankhan666
     - abhijeet-dhumal
     - adelton
     - adrielparedes
@@ -362,6 +363,7 @@ orgs:
         - pnaik1
         - ppadti
         - uidoyen
+        - adnankhan666
         privacy: closed
         repos:
           odh-dashboard: maintain
