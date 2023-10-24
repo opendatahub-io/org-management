@@ -109,6 +109,7 @@ orgs:
     - Raghul-M
     - ralombar
     - rareddy
+    - rbcgh
     - rimolive
     - rkpattnaik780
     - RobGeada
@@ -579,3 +580,8 @@ orgs:
         privacy: closed
         repos:
           ai-edge: admin
+      CodeFlare-NASA-Cluster-Access:
+        description: Users with access to the OSD cluster deployed for collaboration with NASA on CodeFlare Distributed Workloads work
+        members:
+          - rbcgh
+        privacy: closed
