@@ -12,8 +12,14 @@ jobs:
     container:
       image: gcr.io/k8s-prow/peribolos
     steps:
+      - name: Generate github-app token
+        id: app-token
+        uses: getsentry/action-github-app-token@v2
+        with:
+          app_id: ${{ secrets.DEVOPS_APP_ID }}
+          private_key: ${{ secrets.DEVOPS_APP_PRIVATE_KEY }}
       - uses: actions/checkout@v3
       - name: Apply ODH organization membership
         run: |
-          echo ${{ secrets.ORG_MANAGEMENT_TOKEN }} > /.github_token.txt
+          echo ${{ steps.app-token.outputs.token }} > /.github_token.txt
           peribolos --github-token-path /.github_token.txt --config-path "config/opendatahub-io/org.yaml"  --fix-org --fix-org-members --fix-teams --fix-team-members --fix-team-repos --fix-repos --confirm
