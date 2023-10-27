@@ -586,5 +586,6 @@ orgs:
       CodeFlare-NASA-Cluster-Access:
         description: Users with access to the OSD cluster deployed for collaboration with NASA on CodeFlare Distributed Workloads work
         members:
+          - harshad16
           - rbcgh
         privacy: closed
