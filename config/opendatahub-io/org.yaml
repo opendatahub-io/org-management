@@ -284,6 +284,7 @@ orgs:
           caikit: admin
           caikit-nlp: admin
           caikit-tgis-backend: admin
+          caikit-tgis-client: admin
           caikit-tgis-serving: admin
           kserve: admin
           modelmesh: admin
