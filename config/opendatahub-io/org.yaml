@@ -520,6 +520,7 @@ orgs:
         - VaishnaviHire
         members:
         - Gkrumbach07
+        - zdtsw
         privacy: closed
         repos:
           opendatahub.io: admin
