@@ -102,6 +102,7 @@ orgs:
     - manaswinidas
     - Maxusmusti
     - MichaelClifford
+    - milite
     - mlassak
     - moulalis 
     - piotrpdev
@@ -591,5 +592,6 @@ orgs:
         description: Users with access to the OSD cluster deployed for collaboration with NASA on CodeFlare Distributed Workloads work
         members:
           - harshad16
+          - milite
           - rbcgh
         privacy: closed
