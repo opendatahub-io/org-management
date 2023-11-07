@@ -28,6 +28,7 @@ orgs:
     - AjayJagan
     - ajaypratap003
     - akchinSTC
+    - alanbraz
     - alexcreasy
     - amadhusu
     - amsharma3
@@ -61,9 +62,12 @@ orgs:
     - durandom
     - erwangranger
     - etirelli
+    - evaline-ju
     - ezidav
     - fcami
     - Fiona-Waters
+    - flaviabeo
+    - gchickma
     - Gkrumbach07
     - gmfrasca
     - goern
@@ -93,6 +97,7 @@ orgs:
     - jwforres
     - kaedward
     - keklundrh
+    - kingaj12
     - KPostOffice
     - kywalker-rh
     - lampajr
@@ -118,6 +123,7 @@ orgs:
     - romeokienzler
     - rpancham
     - ruivieira
+    - rzbhatti
     - Sara4994
     - sesheta
     - simrandhaliw
@@ -591,7 +597,13 @@ orgs:
       CodeFlare-NASA-Cluster-Access:
         description: Users with access to the OSD cluster deployed for collaboration with NASA on CodeFlare Distributed Workloads work
         members:
+          - alanbraz
+          - evaline-ju
+          - flaviabeo
+          - gchickma
           - harshad16
+          - kingaj12
           - milite17
           - rbcgh
+          - rzbhatti
         privacy: closed
