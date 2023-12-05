@@ -107,6 +107,7 @@ orgs:
     - lugi0
     - manaswinidas
     - manilmaskey
+    - MarianMacik
     - mattmahoneyrh
     - Maxusmusti
     - MichaelClifford
@@ -141,6 +142,7 @@ orgs:
     - tarilabs
     - tedhtchang
     - terrytangyuan
+    - tonyxrmdavidson
     - tteofili
     - VaishnaviHire
     - VanillaSpoon
@@ -273,6 +275,7 @@ orgs:
         - lampajr
         - rareddy
         - tarilabs
+        - tonyxrmdavidson
         members:
         - shawkins
         privacy: closed
@@ -588,7 +591,8 @@ orgs:
           - grdryn
           - gzaronikas
           - israel-hdez
-          - jackdelahunt  
+          - jackdelahunt
+          - MarianMacik
           - piotrpdev
           - Sara4994
           - steventobin
