@@ -212,6 +212,7 @@ orgs:
         repos:
           data-science-pipelines-operator: admin
           data-science-pipelines: admin
+          data-science-pipelines-tekton: admin
       Distributed Workloads Maintainers:
         description: ""
         maintainers:
