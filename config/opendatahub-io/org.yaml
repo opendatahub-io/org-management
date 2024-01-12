@@ -213,6 +213,8 @@ orgs:
           data-science-pipelines-operator: admin
           data-science-pipelines: admin
           data-science-pipelines-tekton: admin
+          ml-metadata: admin
+          argo-workflows: admin
       Distributed Workloads Maintainers:
         description: ""
         maintainers:
@@ -283,6 +285,7 @@ orgs:
         repos:
           model-registry: admin
           model-registry-operator: admin
+          ml-metadata: admin
       Model Serving Maintainers:
         description: "Maintainers for Model Serving related repos."
         maintainers:
