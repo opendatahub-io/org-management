@@ -160,7 +160,6 @@ orgs:
     - yih-wang
     - ykaliuta
     - vaibhavjainwiz
-    - winklerm
     - z103cb
     - zdtsw
     members_can_create_repositories: false
@@ -239,7 +238,6 @@ orgs:
         - sutaakar
         - tedhtchang
         - VanillaSpoon
-        - winklerm
         privacy: closed
         repos:
           codeflare-operator: maintain
