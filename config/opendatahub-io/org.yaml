@@ -250,6 +250,7 @@ orgs:
           codeflare-operator: maintain
           distributed-workloads: maintain
           kuberay: maintain
+          kueue: maintain
       Distributed Workloads Owners:
         description: ""
         maintainers:
@@ -264,6 +265,7 @@ orgs:
           codeflare-operator: admin
           distributed-workloads: admin
           kuberay: admin
+          kueue: admin
       Elyra Maintainers:
         description: Maintainers of the Elyra AI notebook and build pipelines
         maintainers:
