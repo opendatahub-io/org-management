@@ -6,7 +6,7 @@ on:
     branches:
       - 'main'
     paths:
-      - "config/organization_membership.yaml"
+      - "config/organization_members.yaml"
 jobs:
   merge_membership_config:
     runs-on: ubuntu-latest
