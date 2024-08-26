@@ -1,0 +1,12 @@
+# Assigning ownership for specific files or directories
+# Syntax: <file or directory path> <GitHub username or team>
+
+# Assigning ownership for all files in a directory
+# Syntax: <directory path>/* <GitHub username or team>
+
+# Assigning ownership for all files in a repository
+# Syntax: * <GitHub username or team>
+
+* @opendatahub-io/Administrators
+
+/config/organization_members.yaml @opendatahub-io/Administrators @opendatahub-io/org-membership-maintainers
