@@ -1,18 +1,50 @@
-# opendatahub-io GitHub organization
+# org-management
 
-This repository is no longer used to manage organization membership. Reach out to another
-member of the OpenDataHub organization if you need to be added. If you do not know any
-members of the OpenDataHub organization, membership in the opendatahub-io organization can be made by opening an [issue](https://github.com/opendatahub-io/org-management/issues/new/choose).
+Configuration of organization membership and automation to apply this
+membership via GitHub Actions automation.
 
-Membership in the opendatahub-io project is governed by our
-[community guidelines](https://github.com/opendatahub-io/opendatahub-community/blob/main/community-membership.md).
+## Making Changes to Organization Membership
 
-## Community, discussion, contribution, and support
+Addition or removal of users to/from the organization should be made by editing
+the [membership config][membership_config].
 
-Learn how to engage with the opendatahub-io community on the
-[community page](http://github.com/opendatahub-io/opendatahub-community/).
+To add an individual to the organization, open a pull request adding the
+individual's GitHub username to the membership config file. *Note* Please
+add individuals in alphabetical order.
 
-### Code of conduct
+## Automation Setup
 
-Participation in the Open Data Hub community is governed by the
-[Open Data Hub Code of Conduct](https://github.com/opendatahub-io/opendatahub-community/blob/main/CODE_OF_CONDUCT.md).
+We use [Peribolos](https://docs.prow.k8s.io/docs/components/cli-tools/peribolos/) to manage
+organization membership. The membership is defined in [config/organization_members.yaml][membership_config].
+We then use a GitHub action, defined in [.github/workflows/apply-org-membership.yaml](.github/workflows/apply-org-membership.yaml)
+to automatically apply the membership after any change to the membership config.
+
+This automation depends on a GitHub personal access token with read and write
+permissions to organization members. The token value is saved in this repository as a
+repository secret with name `ORG_MANAGEMENT_TOKEN`.
+
+## CI/CD
+
+We use GitHub actions to automate the functionality of this repository. To validate
+new changes to this repository, we have a workflow called [Verify Pull Requests](.github/workflows/verify-pull-requests.yaml).
+For every pull request to this repository, this will:
+
+  * Lint all YAML files
+  * Check that the list of organization users is alphabetical
+  * Ensure that there are no duplicate individuals
+  * Ensure that changes to organization owners are not being made
+
+When changes to the membership config file are merged to main, an additional workflow
+called [Apply Organization Membership](.github/workflows/apply-org-membership.yaml) is run. This
+workflow runs the Peribolos tool and reconciles the state of the org membership to
+the contencts of the config file.
+
+## Managing Organization Owners
+
+We want to prevent changes to the org management file that result in the state of organization owners
+changing. The Peribolos tool currently requires that you specify owners when running it. To get around this
+limitation we've split the organizational config into an [admin config](config/organization_admins.yaml) and
+a [members config][membership_config]. These two configs are merged at apply time
+and the merged config file is passed to Peribolos.
+
+[membership_config]: config/organization_members.yaml

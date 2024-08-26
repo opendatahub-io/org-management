@@ -1,0 +1,65 @@
+---
+name: Apply Organization Membership
+on:
+  workflow_dispatch: {}
+  push:
+    branches:
+      - 'main'
+    paths:
+      - "config/organization_membership.yaml"
+jobs:
+  merge_membership_config:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Install python packages
+        run: pip install pyyaml
+      - name: Merge admins and members file
+        uses: jannekem/run-python-script-action@v1
+        with:
+          script: |
+            import yaml
+
+            with open('config/organization_admins.yaml') as f:
+                admins_data = yaml.safe_load(f)
+            with open('config/organization_members.yaml') as f:
+                members_data = yaml.safe_load(f)
+
+            merged_data = members_data.copy()
+            orgs = members_data['orgs'].keys()
+            for org in orgs:
+                org_admins = admins_data['orgs'].get(org, {}).get('admins', [])
+                merged_data['orgs'][org]['admins'] = org_admins
+
+            merged_data = admins_data | members_data
+            with open('config/organization_membership.yaml', 'w') as f:
+                yaml.dump(merged_data, f)
+      - name: Save the merged membership file
+        uses: actions/upload-artifact@master
+        with:
+          name: membership-config
+          path: config/
+  peribolos:
+    runs-on: ubuntu-latest
+    needs: merge_membership_config
+    container:
+      image: gcr.io/k8s-prow/peribolos
+    steps:
+      - name: Fetch the merged membership file
+        uses: actions/download-artifact@master
+        with:
+          name: membership-config
+          path: config/
+      - name: Apply organization membership
+        run: |
+          echo ${{ secrets.ORG_MANAGEMENT_TOKEN }} > /.github_token.txt
+          echo "Applying membership config:"
+          cat config/organization_membership.yaml
+          peribolos --github-token-path /.github_token.txt \
+            --config-path "config/organization_membership.yaml"  \
+            --fix-org --fix-org-members --github-hourly-tokens="0" \
+            --min-admins=2 \
+            --confirm

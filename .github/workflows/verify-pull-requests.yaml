@@ -1,0 +1,109 @@
+---
+name: Verify Pull Requests
+on:
+  - pull_request
+jobs:
+  yamllint:
+    name: Yamllint
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@master
+      - name: Yamllint
+        uses: karancode/yamllint-github-action@master
+        with:
+          yamllint_comment: true
+        env:
+          GITHUB_ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  check-membership-config:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@master
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Install python packages
+        run: pip install pyyaml
+      - name: Check user order
+        uses: jannekem/run-python-script-action@v1
+        with:
+          script: |
+            import yaml
+
+            def is_list_sorted(data):
+                return all(data[i].lower() <= data[i + 1].lower() \
+                    for i in range(len(data) - 1))
+
+            with open('config/organization_members.yaml') as f:
+                data = yaml.safe_load(f)
+            orgs = data['orgs'].keys()
+            for org in orgs:
+                org_owners = data['orgs'][org].get('admins', [])
+                org_members = data['orgs'][org].get('members', [])
+
+                if not is_list_sorted(org_owners):
+                    print((f'The list of owners for org {org} '
+                          'is not in alphabetical order!'))
+                    exit(1)
+                elif not is_list_sorted(org_members):
+                    print((f'The list of members for org {org} '
+                          'is not in alphabetical order!'))
+                    exit(1)
+      - name: Check for individuals in both users and admins lists
+        uses: jannekem/run-python-script-action@v1
+        env:
+          ORG_OWNERS: ${{ secrets.ORG_OWNERS }}
+        with:
+          script: |
+            import os
+            import yaml
+
+            with open('config/organization_members.yaml') as f:
+                members_data = yaml.safe_load(f)
+            with open('config/organization_admins.yaml') as f:
+                owners_data = yaml.safe_load(f)
+            orgs = members_data['orgs'].keys()
+            for org in orgs:
+                org_owners = owners_data['orgs'][org].get('admins', [])
+                org_members = members_data['orgs'][org].get('members', [])
+
+                if len(set(org_owners).intersection(org_members)) > 0:
+                    print(('There is a user listed in members that is '
+                           f'also listed in owners for org {org}'))
+                    exit(1)
+      - name: Check for duplicate individuals
+        uses: jannekem/run-python-script-action@v1
+        with:
+          script: |
+            import yaml
+
+            with open('config/organization_members.yaml') as f:
+                data = yaml.safe_load(f)
+            orgs = data['orgs'].keys()
+            for org in orgs:
+                org_owners = data['orgs'][org].get('admins', [])
+                org_members = data['orgs'][org].get('members', [])
+
+                if len(set(org_owners)) < len(org_owners):
+                    print(('There is a duplicate user in the list of '
+                           f'owners for org {org}'))
+                    exit(1)
+                if len(set(org_members)) < len(org_members):
+                    print(('There is a duplicate user in the list of '
+                           f'members for org {org}'))
+                    exit(1)
+      - name: Ensure that admins is not set
+        uses: jannekem/run-python-script-action@v1
+        with:
+          script: |
+            import yaml
+
+            with open('config/organization_members.yaml') as f:
+                data = yaml.safe_load(f)
+            orgs = data['orgs'].keys()
+            for org in orgs:
+                if 'admins' in data['orgs'][org].keys():
+                    print(('Changes to the org membershp that change the list '
+                           'of owners are not allowed.'))
+                    exit(1)
