@@ -168,6 +168,7 @@ orgs:
       - openshift-ci-robot
       - openshift-merge-robot
       - paulovmr
+      - pboyd
       - pilhuhn
       - piotrpdev
       - pnaik1
