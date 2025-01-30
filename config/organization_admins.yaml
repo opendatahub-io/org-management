@@ -3,6 +3,7 @@ orgs:
   opendatahub-io:
     admins:
       - accorvin
+      - csams
       - dchourasia
       - jkoehler-redhat
       - riprasad
