@@ -10,6 +10,7 @@ orgs:
       - aduquett
       - adysenrothman
       - agagancarczyk
+      - aireilly
       - AjayJagan
       - ajaypratap003
       - akchinSTC
@@ -18,6 +19,7 @@ orgs:
       - alanbraz
       - alexcreasy
       - alexxfan
+      - alyssacgoins
       - amsharma3
       - andresllh
       - andrewballantyne
@@ -28,6 +30,7 @@ orgs:
       - asanzgom
       - ashley-o0o
       - aslakknutsen
+      - asmigala
       - astefanutti
       - atheo89
       - bartoszmajsak
@@ -36,6 +39,7 @@ orgs:
       - bobbravo2
       - bredamc
       - brettmthompson
+      - briangallagher
       - BSynRedhat
       - cam-garrison
       - caponetto
@@ -45,6 +49,7 @@ orgs:
       - CFSNM
       - cfullam1
       - chipspeak
+      - Chr1st1anSears
       - christianvogt
       - ChristianZaccaria
       - christinaexyou
@@ -62,6 +67,7 @@ orgs:
       - danielezonca
       - daniellutz
       - DaoDaoNoCode
+      - darachcawley
       - dbasunag
       - devguyio
       - dfeddema
@@ -87,6 +93,7 @@ orgs:
       - ezidav
       - fcami
       - FedeAlonso
+      - fege
       - fialhocoelho
       - Fiona-Waters
       - flaviabeo
@@ -108,6 +115,7 @@ orgs:
       - heyselbi
       - HumairAK
       - ide-developer
+      - ikeola13
       - IKRedHat
       - israel-hdez
       - jackdelahunt
@@ -129,6 +137,7 @@ orgs:
       - joerunde
       - Jooho
       - jpuzz0
+      - jrenee42
       - jstourac
       - judyobrienie
       - jwforres
@@ -140,8 +149,10 @@ orgs:
       - KillianGolds
       - kingaj12
       - KPostOffice
+      - kramaranya
       - kryanbeane
       - kywalker-rh
+      - laurafitzgerald
       - lazarotti
       - lburgazzoli
       - ldimaggi
@@ -174,10 +185,12 @@ orgs:
       - n1hility
       - nananosirova
       - nehachopra27
+      - nhr
       - nicholasmakesthings
       - NickLucche
       - njhill
       - ntkathole
+      - obrown1205
       - opendatahub-tests-bot
       - openshift-ci-robot
       - openshift-merge-robot
@@ -216,6 +229,8 @@ orgs:
       - shgriffi
       - Shreyanand
       - simrandhaliw
+      - skrthomas
+      - smccarthy-ie
       - spolti
       - Srihari1192
       - StevenTobin
@@ -230,6 +245,7 @@ orgs:
       - tdarby
       - tedhtchang
       - terrytangyuan
+      - thaorell
       - thatblindgeye
       - thom-at-redhat
       - tjohnson31415
