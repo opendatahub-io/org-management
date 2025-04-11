@@ -4,12 +4,13 @@ orgs:
     members:
       - 2000krysztof
       - abhijeet-dhumal
-      - adelton
       - adnankhan666
       - adolfo-ab
       - adrielparedes
       - aduquett
       - adysenrothman
+      - agagancarczyk
+      - aireilly
       - AjayJagan
       - ajaypratap003
       - akchinSTC
@@ -18,6 +19,7 @@ orgs:
       - alanbraz
       - alexcreasy
       - alexxfan
+      - alyssacgoins
       - amsharma3
       - andresllh
       - andrewballantyne
@@ -28,6 +30,7 @@ orgs:
       - asanzgom
       - ashley-o0o
       - aslakknutsen
+      - asmigala
       - astefanutti
       - atheo89
       - bartoszmajsak
@@ -36,6 +39,7 @@ orgs:
       - bobbravo2
       - bredamc
       - brettmthompson
+      - briangallagher
       - BSynRedhat
       - cam-garrison
       - caponetto
@@ -45,12 +49,14 @@ orgs:
       - CFSNM
       - cfullam1
       - chipspeak
+      - Chr1st1anSears
       - christianvogt
       - ChristianZaccaria
       - christinaexyou
       - chtyler
       - ChughShilpa
       - ckhordiasma
+      - claudialphonse78
       - codeflare-machine-account
       - ConorOM1
       - cooktheryan
@@ -61,6 +67,8 @@ orgs:
       - danielezonca
       - daniellutz
       - DaoDaoNoCode
+      - darachcawley
+      - dbasunag
       - devguyio
       - dfeddema
       - dgutride
@@ -75,7 +83,9 @@ orgs:
       - dtrifiro
       - durandom
       - ederign
+      - efazal
       - emilys314
+      - eoinfennessy
       - erwangranger
       - etirelli
       - eturner24
@@ -83,6 +93,7 @@ orgs:
       - ezidav
       - fcami
       - FedeAlonso
+      - fege
       - fialhocoelho
       - Fiona-Waters
       - flaviabeo
@@ -104,8 +115,8 @@ orgs:
       - heyselbi
       - HumairAK
       - ide-developer
+      - ikeola13
       - IKRedHat
-      - isinyaaa
       - israel-hdez
       - jackdelahunt
       - jbusche
@@ -126,16 +137,22 @@ orgs:
       - joerunde
       - Jooho
       - jpuzz0
+      - jrenee42
       - jstourac
       - judyobrienie
       - jwforres
+      - jyejare
       - kaedward
+      - kahowell
+      - katieperry4
       - keklundrh
       - KillianGolds
       - kingaj12
       - KPostOffice
+      - kramaranya
+      - kryanbeane
       - kywalker-rh
-      - lampajr
+      - laurafitzgerald
       - lazarotti
       - lburgazzoli
       - ldimaggi
@@ -166,12 +183,15 @@ orgs:
       - muthukumaranR
       - mwaykole
       - n1hility
+      - nananosirova
       - nehachopra27
+      - nhr
       - nicholasmakesthings
       - NickLucche
       - njhill
       - ntkathole
-      - oksanabaza
+      - obrown1205
+      - opendatahub-tests-bot
       - openshift-ci-robot
       - openshift-merge-robot
       - paulovmr
@@ -197,6 +217,7 @@ orgs:
       - robotmaxtron
       - romeokienzler
       - rpancham
+      - rroshan-rh
       - rsun19
       - ruivieira
       - russellb
@@ -206,9 +227,12 @@ orgs:
       - Sara4994
       - sesheta
       - shawkins
+      - sheltoncyril
       - shgriffi
       - Shreyanand
       - simrandhaliw
+      - skrthomas
+      - smccarthy-ie
       - spolti
       - Srihari1192
       - StevenTobin
@@ -223,17 +247,18 @@ orgs:
       - tdarby
       - tedhtchang
       - terrytangyuan
+      - thaorell
       - thatblindgeye
       - thom-at-redhat
       - tjohnson31415
       - tmihalac
       - tobiastal
-      - tonyxrmdavidson
       - tumido
       - ugiordan
       - uidoyen
       - vaibhavjainwiz
       - VaishnaviHire
+      - valdar
       - VaniHaripriya
       - varshaprasad96
       - vconzola
