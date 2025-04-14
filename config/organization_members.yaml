@@ -195,6 +195,7 @@ orgs:
       - openshift-ci-robot
       - openshift-merge-robot
       - paulovmr
+      - pawelpaszki
       - pboyd
       - pilhuhn
       - piotrpdev
