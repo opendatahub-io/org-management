@@ -200,6 +200,7 @@ orgs:
       - opendatahub-tests-bot
       - openshift-ci-robot
       - openshift-merge-robot
+      - openshift-cherrypick-robot
       - paulovmr
       - pawelpaszki
       - pboyd
