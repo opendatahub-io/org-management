@@ -4,6 +4,8 @@ orgs:
     members:
       - 2000krysztof
       - abhijeet-dhumal
+      - abiazett
+      - acrago
       - adnankhan666
       - adolfo-ab
       - adrielparedes
@@ -23,6 +25,7 @@ orgs:
       - andresllh
       - andrewballantyne
       - andyatmiami
+      - aniketpalu
       - anishasthana
       - antowaddle
       - arslan2k12
@@ -32,6 +35,7 @@ orgs:
       - asmigala
       - astefanutti
       - atheo89
+      - AviranBadli
       - bartoszmajsak
       - Bobbins228
       - bobbravo2
@@ -42,6 +46,7 @@ orgs:
       - cam-garrison
       - caponetto
       - carlkyrillos
+      - cathaloconnorrh
       - catrobson
       - cfchase
       - CFSNM
@@ -53,17 +58,18 @@ orgs:
       - christinaexyou
       - chtyler
       - ChughShilpa
-      - ckhordiasma
       - claudialphonse78
       - codeflare-machine-account
       - ConorOM1
       - cooktheryan
       - Crazyglue
       - csams
+      - d0w
       - dahlem
       - dandawg
       - danielezonca
       - daniellutz
+      - danijett-design
       - DaoDaoNoCode
       - darachcawley
       - dbasunag
@@ -76,6 +82,7 @@ orgs:
       - dimakis
       - dlabaj
       - dmartinol
+      - dmoskale
       - dpanshug
       - dsp-developers
       - dtrifiro
@@ -98,9 +105,11 @@ orgs:
       - franciscojavierarceo
       - gchickma
       - gitdallas
+      - gkamathe
       - Gkrumbach07
       - gmfrasca
       - goern
+      - GowthamShanmugam
       - grainnejenningsRH
       - grdryn
       - Griffin-Sullivan
@@ -118,6 +127,7 @@ orgs:
       - israel-hdez
       - jbusche
       - jbyrne-redhat
+      - jctanner
       - jedemo
       - jeff-phillips-18
       - jenny-s51
@@ -132,12 +142,14 @@ orgs:
       - jlalbertson
       - jnemargut
       - joerunde
+      - jonzarecki
       - Jooho
       - jpuzz0
       - jrenee42
       - jstourac
       - judyobrienie
       - jwforres
+      - jwm4
       - jyejare
       - kaedward
       - kahowell
@@ -167,6 +179,7 @@ orgs:
       - maxdebayser
       - Maxusmusti
       - MelissaFlinn
+      - MenD32
       - mholder6
       - MichaelClifford
       - milite17
@@ -174,6 +187,7 @@ orgs:
       - mmlittle023
       - MohammadiIram
       - moulalis
+      - mpandya15
       - mprahl
       - mturley
       - muthukumaranR
@@ -188,11 +202,13 @@ orgs:
       - ntkathole
       - obrown1205
       - opendatahub-tests-bot
+      - openshift-cherrypick-robot
       - openshift-ci-robot
       - openshift-merge-robot
       - paulovmr
       - pawelpaszki
       - pboyd
+      - pierDipi
       - pilhuhn
       - piotrpdev
       - pmccarthy
@@ -213,6 +229,7 @@ orgs:
       - rnetser
       - RobGeada
       - robotmaxtron
+      - RomanFilip
       - romeokienzler
       - rpancham
       - rroshan-rh
@@ -254,6 +271,7 @@ orgs:
       - tjohnson31415
       - tmihalac
       - tobiastal
+      - TomerG711
       - tumido
       - ugiordan
       - uidoyen
