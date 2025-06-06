@@ -2,7 +2,6 @@
 orgs:
   opendatahub-io:
     members:
-      - r3v5
       - 2000krysztof
       - abhijeet-dhumal
       - abiazett
@@ -217,6 +216,7 @@ orgs:
       - ppadti
       - prarit
       - prashantgupta24
+      - r3v5
       - Raghul-M
       - ralombar
       - rareddy
