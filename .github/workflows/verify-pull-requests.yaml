@@ -1,7 +1,6 @@
 ---
 name: Verify Pull Requests
-on:
-  - pull_request
+on: [pull_request]
 jobs:
   yamllint:
     name: Yamllint
@@ -123,71 +122,77 @@ jobs:
             # Configuration
             MEMBERS_FILE_PATH = 'config/organization_members.yaml'
             GITHUB_API_BASE_URL = 'https://api.github.com'
-            
+
             def get_changed_users():
                 """
-                Get list of users added in this PR by comparing YAML files directly.
+                Get list of users added in this PR by comparing YAML files.
                 Uses git merge-base for more reliable comparison.
                 """
                 try:
                     # First, try to get the merge base with origin/main
                     try:
-                        base_result = subprocess.run(['git', 'merge-base', 'origin/main', 'HEAD'], 
-                                                   capture_output=True, text=True, check=True)
+                        base_result = subprocess.run(
+                            ['git', 'merge-base', 'origin/main', 'HEAD'],
+                            capture_output=True, text=True, check=True)
                         base_commit = base_result.stdout.strip()
                         print(f'Using merge base: {base_commit}')
                     except subprocess.CalledProcessError:
-                        # Fallback: try with just 'main' if origin/main doesn't exist
+                        # Fallback: try with just 'main' if origin/main missing
                         try:
-                            base_result = subprocess.run(['git', 'merge-base', 'main', 'HEAD'], 
-                                                       capture_output=True, text=True, check=True)
+                            base_result = subprocess.run(
+                                ['git', 'merge-base', 'main', 'HEAD'],
+                                capture_output=True, text=True, check=True)
                             base_commit = base_result.stdout.strip()
                             print(f'Using merge base with main: {base_commit}')
                         except subprocess.CalledProcessError:
-                            # Final fallback: use HEAD~1 or HEAD if it's the first commit
+                            # Final fallback: use HEAD~1 if available
                             try:
-                                base_result = subprocess.run(['git', 'rev-parse', 'HEAD~1'], 
-                                                           capture_output=True, text=True, check=True)
+                                base_result = subprocess.run(
+                                    ['git', 'rev-parse', 'HEAD~1'],
+                                    capture_output=True, text=True, check=True)
                                 base_commit = base_result.stdout.strip()
                                 print(f'Using HEAD~1 as base: {base_commit}')
                             except subprocess.CalledProcessError:
-                                print('Unable to determine base commit, checking all users in current file')
+                                print('Unable to determine base commit, '
+                                      'checking all users in current file')
                                 base_commit = None
-                    
+
                     # Get the old version of the file
                     old_users = set()
                     if base_commit:
                         try:
-                            old_file_result = subprocess.run(['git', 'show', f'{base_commit}:{MEMBERS_FILE_PATH}'], 
-                                                           capture_output=True, text=True, check=True)
+                            file_path = f'{base_commit}:{MEMBERS_FILE_PATH}'
+                            old_file_result = subprocess.run(
+                                ['git', 'show', file_path],
+                                capture_output=True, text=True, check=True)
                             old_data = yaml.safe_load(old_file_result.stdout)
-                            
+
                             # Extract users from old version
                             for org_data in old_data.get('orgs', {}).values():
                                 old_users.update(org_data.get('members', []))
-                                
+
                         except subprocess.CalledProcessError as e:
-                            print(f'Warning: Could not get old version of file: {e}')
+                            print(f'Warning: Could not get old version: {e}')
                             print('Will check all users in current file')
-                    
+
                     # Get the current version of the file
                     with open(MEMBERS_FILE_PATH, 'r') as f:
                         new_data = yaml.safe_load(f)
-                    
+
                     new_users = set()
                     for org_data in new_data.get('orgs', {}).values():
                         new_users.update(org_data.get('members', []))
-                    
+
                     # Find users that were added
                     added_users = list(new_users - old_users)
-                    
+
                     if added_users:
                         print(f'Found {len(added_users)} newly added user(s)')
                     else:
                         print('No new users found in this change')
-                    
+
                     return added_users
-                    
+
                 except Exception as e:
                     print(f'Error analyzing changes: {e}')
                     print('Falling back to checking all users in current file')
@@ -213,7 +218,7 @@ jobs:
                     'Accept': 'application/vnd.github.v3+json',
                     'User-Agent': 'org-management-bot'
                 }
-                
+
                 try:
                     req = urllib.request.Request(url, headers=headers)
                     with urllib.request.urlopen(req) as response:
@@ -225,7 +230,7 @@ jobs:
                     if e.code == 404:
                         return False, 'User not found'
                     elif e.code == 403:
-                        return False, 'Rate limit exceeded or insufficient permissions'
+                        return False, 'Rate limit or insufficient permissions'
                     elif e.code == 401:
                         return False, 'Authentication failed - check token'
                     else:
@@ -244,7 +249,8 @@ jobs:
             token_valid, token_error = check_user_exists('octocat', token)
             if not token_valid:
                 print(f'❌ GitHub token validation failed: {token_error}')
-                print('Please check that GITHUB_TOKEN has sufficient permissions')
+                print('Please check that GITHUB_TOKEN has sufficient '
+                      'permissions')
                 exit(1)
             print('✅ GitHub token validated successfully')
 
@@ -253,7 +259,9 @@ jobs:
                 print('✅ No new users to validate')
                 exit(0)
 
-            print(f'\n🔍 Checking existence of {len(changed_users)} user(s): {", ".join(changed_users)}')
+            user_list = ", ".join(changed_users)
+            print(f'\n🔍 Checking existence of {len(changed_users)} '
+                  f'user(s): {user_list}')
 
             failed_users = []
             for username in changed_users:
@@ -263,15 +271,17 @@ jobs:
                     print(f'❌ User {username} does not exist: {error}')
                 else:
                     print(f'✅ User {username} exists')
-                
+
                 # Rate limiting - be conservative to avoid hitting limits
                 time.sleep(0.1)
 
             if failed_users:
-                print(f'\n❌ {len(failed_users)} user(s) do not exist on GitHub:')
+                count = len(failed_users)
+                print(f'\n❌ {count} user(s) do not exist on GitHub:')
                 for failure in failed_users:
                     print(f'  - {failure}')
-                print('\nPlease verify the usernames are correct and try again.')
+                print('\nPlease verify usernames are correct and try again.')
                 exit(1)
 
-            print(f'\n✅ All {len(changed_users)} user(s) exist on GitHub and can be added to the organization')
+            print(f'\n✅ All {len(changed_users)} user(s) exist on GitHub '
+                  f'and can be added to the organization')
